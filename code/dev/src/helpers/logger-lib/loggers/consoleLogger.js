@@ -6,7 +6,7 @@
 /**
  * { Dependencies }
  */
-import loggersupport from './loggersupport';
+import helpers from './../helpers';
 
  /**
  * { Function }
@@ -28,29 +28,22 @@ import loggersupport from './loggersupport';
 				console.debug(styledMessageContent, 'color: grey');
 
 				callback ? callback(messageContent) : ' ';
-
 				break;
 			case 'info':
 				console.info(styledMessageContent, 'color: green');
 
 				callback ? callback(messageContent) : ' ';
-
 				break;
 			case 'error':
 				console.error(styledMessageContent, 'color: red');
 
 				callback ? callback(messageContent) : ' ';
-
-/*				if (callback){
-					callback(messageContent);
-				};*/
-
 				break;
 			default:
 				//console.log('Sorry, the logger did not recognise this messageLevel for the console.log messageOutput');
 
-				callback ? callback('Sorry, the logger did not recognise this messageLevel for the console.log messageOutput') : ' ';
-				loggersupport.error.throw('Sorry, the logger did not recognise this messageLevel for the console.log messageOutput');
+				callback ? callback('Sorry, the logger did not recognise this messageLevel in the console.log messageOutput type') : ' ';
+				helpers.error.throw('Sorry, the logger did not recognise this messageLevel in the console.log messageOutput type');
 			}
 	};
 

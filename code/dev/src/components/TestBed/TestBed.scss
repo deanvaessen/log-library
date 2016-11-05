@@ -60,15 +60,25 @@
 				@include rem(letter-spacing,0.5px);
 			}
 
-			.TestBed__LevelAndOutput{
-				@include rem(margin, 20px);
+			.TestBed__optionsContainer {
 				display: inline-block;
-				width: 100%;
+				position: relative;
+				left: 50%;
+				transform: translateX(-50%);
 
 				.TestBed__logOption {
 					display: inline-block;
 					@include rem(margin, 0 20px);
 				}
+			}
+
+
+			.TestBed__LevelAndOutput{
+				@include rem(margin, 20px 0);
+				display: inline-block;
+				width: 100%;
+
+
 
 				.TestBed__logLevel, .TestBed__logOutput {
 					width: 50%;
@@ -85,19 +95,34 @@
 						display: block;
 						width: auto;
 					}
+			}
+
+			.TestBed__logLocation {
+				@include rem(margin, 30px 0 70px 0);
+				width: 100%;
+				float: left;
+
+				.TestBed__optionsContainer {
+					@include rem(margin, 0 0 20px 0);
 				}
+
+				input[type=text] {
+					@include rem(margin, 20px auto);
+					width: 80%;
+				}
+			}
 
 			.TestBed__loggedMessageDebug {
 				color: gray;
-			};
+			}
 
 			.TestBed__loggedMessageInfo {
-				color: blue;
-			};
+				color: green;
+			}
 
 			.TestBed__loggedMessageError{
 				color: red;
-			};
+			}
 
 			.TestBed__resultLoggedMessage {
 				@include rem(margin, 30px 0 40px 0);

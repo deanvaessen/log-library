@@ -1,6 +1,6 @@
 /*******************************
- * [_loggersupport.js]
- * Define the main helper for the logging
+ * [_helpers.js]
+ * Define the main helpers for the logging
  ******************************/
 
 /**
@@ -44,7 +44,6 @@
 	*/
 	const validate = {
 		messageLength : function (messageContent) {
-			console.log(typeof messageContent);
 
 			// Prevent numbers from causing errors, convert to string.
 			if (typeof messageContent === 'number') {
@@ -69,11 +68,11 @@
 			};
 
 			const isNode = function () {
-				try {
-					return this === global;
-				} catch (e) {
-					return false;
+				if (process.versions.node != 'undefined'){
+					return true;
 				}
+
+				return false;
 			};
 
 			if (isBrowser()) {
@@ -96,7 +95,7 @@
 			let formattedMessage;
 
 			formattedMessage = '#' + '{' + timeAndDate + '}' + ' ';
-			formattedMessage = formattedMessage + '[' + '#' + messageLevel + '}' + ']' + ' ';
+			formattedMessage = formattedMessage + '[' + '#' + '{' + messageLevel + '}' + ']' + ' ';
 			formattedMessage = formattedMessage + '#' + '{' + messageContent + '}';
 
 			return formattedMessage;

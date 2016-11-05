@@ -1,0 +1,7 @@
+Logging files can only be done server side. Build a small express server to test file logging.
+Write API documentation
+Decrease size TestBed.js
+
+
+Tests would be a good extra addition in the future, I left the a test file and base architecture that I wrote for a previous project, 
+which could serve as a foundation to build on.

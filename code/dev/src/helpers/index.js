@@ -6,30 +6,12 @@
 /**
 * { Dependencies }
 */
-//import translateNumberHelper from './translateNumber';
-/*import loggerHelpers from './logger';*/
 import MutationHelpers from './mutation';
 
 /**
 * { Function }
 */
 const index = (function () {
-
-			/**
-			* Support helpers for translation
-			*/
-/*			const translation = {
-				number : function (input, callback) {
-					translateNumberHelper(input, callback);
-				}
-			};*/
-
-			/**
-			* Logger
-			*/
-/*			const logger = function (input, callback) {
-				loggerHelpers(input, callback);
-			};*/
 
 			/**
 			* Support helpers for mutation
@@ -55,8 +37,6 @@ const index = (function () {
 			};
 
 			return {
-				//translation : translation,
-				//logger : logger,
 				mutation : mutation
 			};
 })();

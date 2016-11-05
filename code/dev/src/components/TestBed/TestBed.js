@@ -12,7 +12,7 @@ import React from 'react';
 import Formous from 'formous';
 require('./TestBed.scss');
 import helpers from './../../helpers/index';
-import logger from './../../helpers/logger';
+import communicator from './communicator';
 
 
 /**
@@ -41,9 +41,11 @@ class TestBed extends React.Component {
 		this.shouldHideTranslationHeader = true;
 		this.onChangeLogLevel = this.onChangeLogLevel.bind(this);
 		this.onChangeLogOutput = this.onChangeLogOutput.bind(this);
+		this.onChangeLogLocationLookIn = this.onChangeLogLocationLookIn.bind(this);
 		this.state = {
 			logLevel: '',
 			logOutput: '',
+			logLocationLookin: '',
 			checked : {
 				logLevel : {
 					debug : false,
@@ -54,6 +56,10 @@ class TestBed extends React.Component {
 					console : false,
 					file : false,
 					stream : false
+				},
+				logLocationLookIn : {
+					projectRoot : false,
+					driveRoot : false
 				}
 			}
 		}
@@ -63,7 +69,7 @@ class TestBed extends React.Component {
 	}
 
 	componentDidMount() {
-		console.log(this.state)
+		const user = {test : 123};
 	}
 
 	componentWillReceiveProps(nextProps) {
@@ -100,17 +106,18 @@ class TestBed extends React.Component {
 
 		// No errors found, continue.
 
-		// Translate and mutate result
+		// Log the message
+			// Define it
+			const newLogMessage = {
+				messageContent : fieldState.logMessage.value,
+				messageLevel : this.state.logLevel,
+				messageOutput : this.state.logOutput
+			};
 
-// HARD CODING TYPE ETC BELOW IS TEMPORARY!!!
+			const logOutput = this.state.logOutput;
 
-		const newLogMessage = {
-			messageContent : fieldState.logMessage.value,
-			messageLevel : this.state.logLevel,
-			messageOutput : this.state.logOutput
-		};
-
-		logger.log(newLogMessage, (result) => this.mutateComponent(result));
+			// Fire off a the logging
+			communicator.postLog(newLogMessage, (result) => this.mutateComponent(result));
 	}
 
 	handleKeyPress(e) {
@@ -121,22 +128,25 @@ class TestBed extends React.Component {
 	}
 
 	mutateComponent(payload){
-		const typographyHelp = helpers.mutation.typography,
-			translation = typographyHelp.capitaliseFirstLetter(payload);
+		console.log('----')
+		console.log(payload)
+		console.log('----')
+
+		this.shouldHideTranslationHeader = false;
 
 		// Pass back into the view
 		this.setState(this.props.fields.resultLoggedMessage = {
-			value : translation,
+			value : payload,
 			events : this.props.fields.resultLoggedMessage.events,
 			valid : this.props.fields.resultLoggedMessage.valid
 		});
-
-		this.shouldHideTranslationHeader = false;
 	}
 
-	// onChange radiobutton logLevel
+	// onChange radiobuttons logLevel
 	onChangeLogLevel(e) {
 		this.props.fields.resultLoggedMessage.value = '';
+		this.shouldHideTranslationHeader = true;
+
 		this.setState({
 			logLevel: e.currentTarget.value,
 			checked : {
@@ -149,14 +159,20 @@ class TestBed extends React.Component {
 					console : this.state.checked.logOutput.console,
 					file : this.state.checked.logOutput.file,
 					stream : this.state.checked.logOutput.stream
+				},
+				logLocationLookIn : {
+					projectRoot : this.state.checked.logLocationLookIn.projectRoot,
+					driveRoot : this.state.checked.logLocationLookIn.driveRoot,
 				}
 			}
 		})
 	}
 
-	// onChange radiobutton logOutput
+	// onChange radiobuttons logOutput
 	onChangeLogOutput(e) {
 		this.props.fields.resultLoggedMessage.value = '';
+		this.shouldHideTranslationHeader = true;
+
 		this.setState({
 		  logOutput: e.currentTarget.value,
 		  checked : {
@@ -170,6 +186,36 @@ class TestBed extends React.Component {
 		  		file : (e.currentTarget.value === 'file' ? true : false),
 		  		stream: (e.currentTarget.value === 'stream' ? true : false)
 		  	},
+		  	logLocationLookIn : {
+		  		projectRoot : this.state.checked.logLocationLookIn.projectRoot,
+		  		driveRoot : this.state.checked.logLocationLookIn.driveRoot,
+		  	}
+		  }
+		})
+	}
+
+	// onChange radiobuttons logLocationLookIn
+	onChangeLogLocationLookIn(e) {
+		this.props.fields.resultLoggedMessage.value = '';
+		this.shouldHideTranslationHeader = true;
+
+		this.setState({
+		  logLocationLookIn: e.currentTarget.value,
+		  checked : {
+		  	logLevel : {
+		  		debug : this.state.checked.logLevel.debug,
+		  		info : this.state.checked.logLevel.info,
+		  		error: this.state.checked.logLevel.error,
+		  	},
+		  	logOutput : {
+		  		console : this.state.checked.logOutput.console,
+		  		file : this.state.checked.logOutput.file,
+		  		stream : this.state.checked.logOutput.stream
+		  	},
+		  	logLocationLookIn : {
+		  		projectRoot : (e.currentTarget.value === 'projectRoot' ? true : false),
+		  		driveRoot : (e.currentTarget.value === 'driveRoot' ? true : false),
+		  	}
 		  }
 		})
 	}
@@ -192,7 +238,7 @@ class TestBed extends React.Component {
 					<div className="TestBed__form">
 						<div className="TestBed__input">
 							<div className="TestBed__logMessage" >
-								<h4 className="header">Which message would you like to log?</h4>
+								<h4 className="header">What message would you like to log?</h4>
 								<input
 									placeholder="Your message"
 									type="text"
@@ -208,54 +254,88 @@ class TestBed extends React.Component {
 								<div className="TestBed__LevelAndOutput">
 									<div className="TestBed__logLevel">
 										<h4 className="header">Which log level?</h4>
-
-										<div className="TestBed__logOption">
-											<h5 className="header">Debug</h5>
-											<input type="radio" name="logLevel_debug"
-																value="debug"
-																onChange={this.onChangeLogLevel}
-																checked={this.state.checked.logLevel.debug} />
-										</div>
-										<div className="TestBed__logOption">
-											<h5 className="header">Info</h5>
-											<input type="radio" name="logLevel_info"
-																value="info"
-																onChange={this.onChangeLogLevel}
-																checked={this.state.checked.logLevel.info} />
-										</div>
-										<div className="TestBed__logOption">
-											<h5 className="header">Error</h5>
-											<input type="radio" name="logLevel_error"
-																value="error"
-																onChange={this.onChangeLogLevel}
-																checked={this.state.checked.logLevel.error} />
+										<div className="TestBed__optionsContainer">
+											<div className="TestBed__logOption">
+												<h5 className="header">Debug</h5>
+												<input type="radio" name="logLevel_debug"
+																	value="debug"
+																	onChange={this.onChangeLogLevel}
+																	checked={this.state.checked.logLevel.debug} />
+											</div>
+											<div className="TestBed__logOption">
+												<h5 className="header">Info</h5>
+												<input type="radio" name="logLevel_info"
+																	value="info"
+																	onChange={this.onChangeLogLevel}
+																	checked={this.state.checked.logLevel.info} />
+											</div>
+											<div className="TestBed__logOption">
+												<h5 className="header">Error</h5>
+												<input type="radio" name="logLevel_error"
+																	value="error"
+																	onChange={this.onChangeLogLevel}
+																	checked={this.state.checked.logLevel.error} />
+											</div>
 										</div>
 									</div>
 
 									<div className="TestBed__logOutput">
 										<h4 className="header">Which output?</h4>
+										<div className="TestBed__optionsContainer">
+											<div className="TestBed__logOption">
+												<h5 className="header">Console</h5>
+												<input type="radio" name="logOutput_console"
+																	value="console"
+																	onChange={this.onChangeLogOutput}
+																	checked={this.state.checked.logOutput.console} />
+											</div>
+											<div className="TestBed__logOption">
+												<h5 className="header">File</h5>
+												<input type="radio" name="logOutput_file"
+																	value="file"
+																	onChange={this.onChangeLogOutput}
+																	checked={this.state.checked.logOutput.file} />
+											</div>
+											<div className="TestBed__logOption">
+												<h5 className="header">Stream</h5>
+												<input type="radio" name="logOutput_stream"
+																	value="stream"
+																	onChange={this.onChangeLogOutput}
+																	checked={this.state.checked.logOutput.stream} />
+											</div>
+										</div>
+									</div>
+									<br />
 
-										<div className="TestBed__logOption">
-											<h5 className="header">Console</h5>
-											<input type="radio" name="logOutput_console"
-																value="console"
-																onChange={this.onChangeLogOutput}
-																checked={this.state.checked.logOutput.console} />
+									<div className={this.state.checked.logOutput.file ? "TestBed__logLocation" : "hidden"}>
+										<h4 className="header">Root 'look-in' directory:</h4>
+										<div className="TestBed__optionsContainer">
+											<div className="TestBed__logOption">
+												<h5 className="header">Project root</h5>
+												<input type="radio" name="logLocation_lookInProjectRoot"
+																	value="projectRoot"
+																	onChange={this.onChangeLogLocationLookIn}
+																	checked={this.state.checked.logLocationLookIn.projectRoot} />
+											</div>
+											<div className="TestBed__logOption">
+												<h5 className="header">Drive root</h5>
+												<input type="radio" name="logLocation_lookInDriveRoot"
+																	value="driveRoot"
+																	onChange={this.onChangeLogLocationLookIn}
+																	checked={this.state.checked.logLocationLookIn.driveRoot} />
+											</div>
 										</div>
-										<div className="TestBed__logOption">
-											<h5 className="header">File</h5>
-											<input type="radio" name="logOutput_file"
-																value="file"
-																onChange={this.onChangeLogOutput}
-																checked={this.state.checked.logOutput.file} />
-										</div>
-										<div className="TestBed__logOption">
-											<h5 className="header">Stream</h5>
-											<input type="radio" name="logOutput_stream"
-																value="stream"
-																onChange={this.onChangeLogOutput}
-																checked={this.state.checked.logOutput.stream} />
-										</div>
+
+										<h4 className="header">Set a path:</h4>
+										<input
+											placeholder="File path"
+											type="text"
+											ref="TestBed__inputlogMessage"
+											className="TestBed__inputFileLocation"
+											value={logMessage.value}
+											onKeyPress={this.handleKeyPress}
+											{ ...logMessage.events }
+										/>
 									</div>
 									<br />
 									<br />
