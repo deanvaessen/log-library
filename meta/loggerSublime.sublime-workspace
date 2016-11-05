@@ -1,0 +1,2727 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"messageLen",
+				"messageLengthIsValid"
+			],
+			[
+				"messag",
+				"messageContent〔variable〕"
+			],
+			[
+				"message",
+				"messageContent"
+			],
+			[
+				"messageT",
+				"messageType"
+			],
+			[
+				"new",
+				"newLogMessage"
+			],
+			[
+				"log",
+				"logMessage"
+			],
+			[
+				"field",
+				"fieldState"
+			],
+			[
+				"logger",
+				"loggersupport"
+			],
+			[
+				"format",
+				"formattedMessage〔variable〕"
+			],
+			[
+				"valid",
+				"validLength〔variable〕"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"stor",
+				"storeState"
+			],
+			[
+				"initialise",
+				"initialiseGame"
+			],
+			[
+				"positi",
+				"positionUpdate"
+			],
+			[
+				"Directo",
+				"DirectorHotline"
+			],
+			[
+				"game",
+				"gameplay"
+			],
+			[
+				"width",
+				"widthUpdate〔variable〕"
+			],
+			[
+				"post",
+				"postContent"
+			],
+			[
+				"marginSpa",
+				"marginSpaceStandard"
+			],
+			[
+				"margin",
+				"marginSpace"
+			],
+			[
+				"textHeight",
+				"textHeightStandard"
+			],
+			[
+				"text",
+				"textlength"
+			],
+			[
+				"active",
+				"activeFAQContent"
+			],
+			[
+				"nav",
+				"navbarHeight"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"booknow",
+				"bookNowButtonTop"
+			],
+			[
+				"header",
+				"headerLogoHeight〔variable〕"
+			],
+			[
+				"opa",
+				"opacityValue〔variable〕"
+			],
+			[
+				"hamburger",
+				"hamburger-menu"
+			],
+			[
+				"error",
+				"errorUnauthorisedAccess"
+			],
+			[
+				"ap",
+				"appendix"
+			],
+			[
+				"get",
+				"getIndexObj"
+			],
+			[
+				"correct",
+				"correctAnswer"
+			],
+			[
+				"correc",
+				"correctAnswer"
+			],
+			[
+				"mission",
+				"missionContent"
+			],
+			[
+				"misso",
+				"missionContent"
+			],
+			[
+				"collec",
+				"collectionStorage"
+			],
+			[
+				"ge",
+				"getItemRandom"
+			],
+			[
+				"word",
+				"wordLibExAdjective"
+			],
+			[
+				"generatorItem",
+				"generatorItems"
+			],
+			[
+				"genera",
+				"generateID"
+			],
+			[
+				"oser",
+				"observableArray"
+			],
+			[
+				"generator",
+				"generatorItemsChildren"
+			],
+			[
+				"obser",
+				"observableArray"
+			],
+			[
+				"collectio",
+				"collectionUpdate"
+			],
+			[
+				"answer",
+				"answer"
+			],
+			[
+				"chil",
+				"children"
+			],
+			[
+				"items",
+				"items"
+			],
+			[
+				"rando",
+				"randomNum〔variable〕"
+			],
+			[
+				"item",
+				"itemIndex"
+			],
+			[
+				"observa",
+				"observableArray"
+			],
+			[
+				"childin",
+				"childIndexCompare"
+			],
+			[
+				"parent",
+				"parentkey"
+			],
+			[
+				"child",
+				"childIndex"
+			],
+			[
+				"add",
+				"addChild"
+			],
+			[
+				"missio",
+				"missionContent_item"
+			],
+			[
+				"motto",
+				"mottoNew"
+			],
+			[
+				"toast",
+				"toastActivation"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"rgb-",
+				"rgb-orange"
+			],
+			[
+				"rgb",
+				"rgb-russia-red"
+			],
+			[
+				"rgb-russia",
+				"rgb-russia-blue--old"
+			],
+			[
+				"data",
+				"databaseEmpty"
+			],
+			[
+				"conjugat",
+				"conjugationUserInput"
+			],
+			[
+				"wordsEXVerbs",
+				"wordsEXVerbsConjugations"
+			],
+			[
+				"transla",
+				"translateX"
+			],
+			[
+				"mobile",
+				"mobilecheck"
+			],
+			[
+				"kapstok_child",
+				"kapstok_child1--l"
+			],
+			[
+				"backgro",
+				"background"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"rgb-russ",
+				"rgb-russia-blue--old"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"ifra",
+				"iFrameLoaded"
+			],
+			[
+				"ifr",
+				"iFrameLoaded"
+			],
+			[
+				"kasp",
+				"kapstok_hoofd"
+			],
+			[
+				"partice",
+				"particlesJS"
+			],
+			[
+				"option",
+				"option1Exists"
+			],
+			[
+				"object",
+				"objectTargetKey"
+			],
+			[
+				"check",
+				"checkUnique"
+			],
+			[
+				"gra",
+				"grabOption"
+			],
+			[
+				"phrase",
+				"phraseKey"
+			],
+			[
+				"key",
+				"keyboard_container"
+			],
+			[
+				"validity",
+				"resultValidityConjugation"
+			],
+			[
+				"process",
+				"processedRequestKeyValue"
+			],
+			[
+				"request",
+				"requestCatch"
+			],
+			[
+				"grab",
+				"grabbedValue"
+			],
+			[
+				"getCon",
+				"getConjugationTypeCount"
+			],
+			[
+				"words",
+				"wordsC1M2Conjugations"
+			],
+			[
+				"learned",
+				"learnedDB"
+			],
+			[
+				"align",
+				"alignProgress"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"empt",
+				"wordsC1M1LearnedDueEmpty"
+			],
+			[
+				"tet",
+				"textRussianCard"
+			],
+			[
+				"empty",
+				"wordsC1M1ActiveEmpty"
+			],
+			[
+				"due",
+				"wordsC1M1LearnedDue"
+			],
+			[
+				"load",
+				"loadCardDeck"
+			],
+			[
+				"Learn",
+				"wordsC1M1LearnedDue"
+			],
+			[
+				"j",
+				"JSON"
+			],
+			[
+				"progress",
+				"progressC1M1"
+			],
+			[
+				"mark",
+				"markWordLearned"
+			],
+			[
+				"random",
+				"randomProperty"
+			],
+			[
+				"flash",
+				"flashcardC1M1ViewModel"
+			],
+			[
+				"input",
+				"inputField"
+			],
+			[
+				"dbq",
+				"dbQueryResult"
+			],
+			[
+				"dbQ",
+				"dbQueryResult"
+			],
+			[
+				"bo",
+				"Boolean"
+			],
+			[
+				"activate",
+				"activateLoadBlog"
+			],
+			[
+				"show",
+				"showLoadingMatryoshka"
+			],
+			[
+				"info__heading",
+				"info__heading--lead"
+			],
+			[
+				"aja",
+				"ajaxform"
+			],
+			[
+				"sub",
+				"subject"
+			],
+			[
+				"ju",
+				"justify-content"
+			],
+			[
+				"article",
+				"article__info"
+			],
+			[
+				"iframe",
+				"iframeactive"
+			],
+			[
+				"sec",
+				"section__portfolio"
+			],
+			[
+				"info__tree__horiz",
+				"info__tree__horizontal--html"
+			],
+			[
+				"section__portfo",
+				"section__portfolio__iframe"
+			],
+			[
+				"rgb-blue",
+				"rgb-blue--light"
+			],
+			[
+				"navRetu",
+				"navButtonReturnClicked"
+			],
+			[
+				"navRet",
+				"navButtonReturnClicked"
+			],
+			[
+				"portfolio",
+				"portfoliooverview"
+			],
+			[
+				"navGrow",
+				"navGrowActiveNotRemoved"
+			],
+			[
+				"navgrow",
+				"navGrowNotAdded"
+			],
+			[
+				"nav__return",
+				"nav__return__button"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/helpers/translateNumber.js",
+			"settings":
+			{
+				"buffer_size": 7304,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "/*******************************\n * [_TestBed.js]\n * Define the TestBed code here\n ******************************/\n\n/* eslint react/prop-types: 0 */\n\n/**\n* { Dependencies }\n*/\nimport React from 'react';\nimport Formous from 'formous';\nrequire('./TestBed.scss');\nimport helpers from './../../helpers/index';\nimport logger from './../../helpers/logger';\n\n\n/**\n * { Component }\n */\n\nclass ErrorText extends React.Component {\n	render() {\n		return <div style={{color : '#f00' }}>\n					{this.props.errorText}\n				</div>;\n	}\n }\n\n ErrorText.propTypes = {\n	// errorText : React.PropTypes.string\n	// Prop validation is already done through Formous\n};\n\nclass TestBed extends React.Component {\n	constructor(props) {\n		super(props);\n		this.handleSubmit = this.handleSubmit.bind(this);\n		this.handleKeyPress = this.handleKeyPress.bind(this);\n		this.mutateComponent = this.mutateComponent.bind(this);\n		this.shouldHideTranslationHeader = true;\n	}\n\n	componentWillMount() {\n	}\n\n	componentDidMount() {\n		// console.log(this.props);\n	}\n\n	componentWillReceiveProps(nextProps) {\n			this.props.setDefaultValues({\n				logMessage : '',\n				english : '',\n				shouldHideTranslationHeader : true\n			});\n	}\n\n	handleSubmit(formStatus, fields) {\n		// Initial state\n		let fieldState = this.props.fields;\n\n		if (!formStatus.touched) {\n			alert('Please fill out the form.');\n			return;\n		}\n\n		if (!formStatus.valid) {\n			alert('Please fill in a number');\n			return;\n		}\n\n		if (this.props.fields.logMessage.value.replace(/ /g, '') == '') {\n			alert('Please fill in a number');\n			return;\n		}\n\n		// No errors found, continue.\n\n		// Translate and mutate result\n\n// HARD CODING TYPE ETC BELOW IS TEMPORARY!!!\n\n		const newLogMessage = {\n			messageContent : fieldState.logMessage.value,\n			messageType : 'debug',\n			messageOutput : 'console'\n		};\n\n		logger.log(newLogMessage, (result) => this.mutateComponent(result));\n	}\n\n	handleKeyPress(e) {\n		if (e.key === 'Enter') {\n			// Prevent enter key, Formous doesn't seem to like the enter key\n			e.preventDefault();\n		}\n	}\n\n	mutateComponent(payload){\n		const typographyHelp = helpers.mutation.typography,\n			translation = typographyHelp.capitaliseFirstLetter(payload);\n\n		// Pass back into the view\n		this.setState(this.props.fields.english = {\n			value : translation,\n			events : this.props.fields.english.events,\n			valid : this.props.fields.english.valid\n		});\n\n		this.shouldHideTranslationHeader = false;\n	}\n\n	render() {\n\n		/*eslint-disable */\n		const {\n			fields : { logMessage, english },\n			formSubmit\n		} = this.props;\n		/*eslint-enable */\n\n		return (\n		<div className=\"TestBed__outerContainer\">\n			<div className=\"TestBed__title\"><h1>Log me, please</h1></div>\n			<div className=\"TestBed__innerContainer\">\n\n				<form onSubmit={formSubmit(this.handleSubmit)}>\n					<div className=\"TestBed__form\">\n						<div className=\"TestBed__input\">\n							<div className=\"TestBed__logMessage\" >\n								<h4 className=\"header\">What message would you like to log?</h4>\n								<input\n									placeholder=\"logMessage numeral\"\n									type=\"text\"\n									ref=\"TestBed__inputlogMessage\"\n									className=\"TestBed__inputlogMessage\"\n									value={logMessage.value}\n									onKeyPress={this.handleKeyPress}\n									{ ...logMessage.events }\n								/>\n								<ErrorText { ...logMessage.failProps } />\n							</div>\n\n							<input type=\"radio\" name=\"site_name\"\n							                                   value={result.SITE_NAME}\n							                                   checked={this.state.site === result.SITE_NAME}\n							                                   onChange={this.onSiteChanged} />\n\n							<hr className={this.shouldHideTranslationHeader ? 'hidden' : ''} />\n\n							<div className=\"TestBed__english\" >\n								<h4 className={this.shouldHideTranslationHeader ? 'hidden header' : 'header'}>\n									Your logged message:\n								</h4>\n								<br />\n\n								<p className=\"TestBed__outputEnglish\">{this.props.fields.english.value}</p>\n							</div>\n						</div>\n					</div>\n						<div className=\"TestBed__buttons\">\n							<button className=\"TestBed__submit\" type=\"submit\">Submit</button>\n							<button className=\"TestBed__clear\" type=\"button\" onClick=\n							{(event) => {\n								this.shouldHideTranslationHeader = true;\n								this.props.clearForm();\n							}}>Clear</button>\n						</div>\n				</form>\n			</div>\n		</div>\n		);\n	}\n};\n\nTestBed.propTypes = {\n	// Prop validation is already done through Formous\n};\n\nconst formousOptions = {\n	fields : {\n		logMessage : {\n			tests : [\n				{\n					critical : true,\n					failProps : {\n						errorText : 'logMessage should be a number'\n					},\n					test(value) {\n						return /^\\d*$/.test(value);\n					}\n				}\n			]\n		},\n		english : {\n			tests : [\n				{\n					critical : true,\n					failProps : {\n						errorText : 'English should be in letters!'\n					},\n					test(value) {\n						return /^[a-zA-Z-]*$/.test(value);\n					}\n				},\n				{\n					critical : true,\n					failProps : {\n						errorText : 'English should be in letters!'\n					},\n					test(value) {\n						return /^[a-zA-Z-]*$/.test(value);\n					}\n				}\n			]\n		}\n	}\n};\n\nexport default Formous(formousOptions)(TestBed);\n",
+			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/components/TestBed/TestBed.js",
+			"file_size": 4843,
+			"file_write_time": 131228298305815606,
+			"settings":
+			{
+				"buffer_size": 5119,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/components/root/app.js",
+			"settings":
+			{
+				"buffer_size": 549,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/helpers/index.js",
+			"settings":
+			{
+				"buffer_size": 1412,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/helpers/mutation.js",
+			"settings":
+			{
+				"buffer_size": 884,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/helpers/logger.js",
+			"settings":
+			{
+				"buffer_size": 2115,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/helpers/loggersupport.js",
+			"settings":
+			{
+				"buffer_size": 2636,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/helpers/consoleLogger.js",
+			"settings":
+			{
+				"buffer_size": 1375,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/components/TestBed/TestBed.scss",
+			"settings":
+			{
+				"buffer_size": 2392,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/*\n*\n* Dependencies\n*\n*/\nconst fs = require('fs');\n\n// Helpers to aid the logging library\nconst helpers = (function(){\n	define : {\n\n	},\n\n	validate : {\n\n	}\n\n\n\n	return {\n		define : define,\n		validate : validate,\n		format : format\n	}\n})();\n\n// Main logger function\nconst init = (function() {\n\n	// Preprocessing functions\n	preProcess(messageContent) {\n		const messageLengthIsValid = helpers.validate.messageLength(messageContent);\n		messageLengthIsValid ? return true : return false\n	}\n\n	log(messageContent, messageType, messageOutput) {\n\n		// Run the preprocessing\n		const messageIsValid ? this.preprocess(messageContent) : return;\n		const formattedMessage = helpers.format(messageContent, messageType);\n\n		switch(messageOutput) {\n			case console:\n					// code block for console.log\n					this.console(formattedMessage)\n					break;\n			case file:\n				 // code block for file log\n				 // cannot run in the browser, so validate environement also\n				 const environment = helpers.validate.environment();\n				 environment === 'node' ? this.file(formattedMessage) : throw 'wrong environment!';\n				 break;\n			case stream:\n				// code block for stream log\n				break;\n			default:\n					//console.log('Sorry, the logger did not recognise this messageOutput');\n					throw 'Sorry, the logger did not recognise this messageOutput';\n		}\n\n		console (messageContent, messageType) {\n			switch(messageType) {\n				case debug:\n						console.debug(formattedMessage, 'color: grey');\n						break;\n				case info:\n					 console.info(formattedMessage, 'color: green');\n					 break;\n				case error:\n					console.error(formattedMessage, 'color: red');\n					break;\n				default:\n						console.log('Sorry, the logger did not recognise this messageType for the console.log messageOutput');\n						return ('Sorry, the logger did not recognise this messageType for the console.log messageOutput');\n				}\n		}\n\n		file (formattedMessage) {\n\n			fs.writeFile(\"/tmp/test\", \"Hey there!\", function(err) {\n			if(err) {\n				return console.log(err);\n			}\n\n			console.log(\"The file was saved!\");\n			});\n		}\n	}\n\n	return {\n		preProcess : preProcess,\n		log : log,\n		console : console\n	}\n})();\n\nconst logger = init;",
+			"settings":
+			{
+				"buffer_size": 2160,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/package.json",
+			"settings":
+			{
+				"buffer_size": 2362,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "tabs",
+		"selected_items":
+		[
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"trail",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"jsx",
+				"Set Syntax: JSX"
+			],
+			[
+				"trai",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"destroy",
+				"Layout: Destroy Current Pane"
+			],
+			[
+				"pane",
+				"Origami: Create Pane on the Right"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"syn",
+				"Set Syntax: SCSS"
+			],
+			[
+				"emmet",
+				"Set Syntax: Emmet"
+			],
+			[
+				"scope",
+				"Scope Hunter: Show Scope Under Cursor(s)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"doxy",
+				"DoxyDoxygen: Comment Wrap"
+			],
+			[
+				"comment",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"blockr",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Themr: List themes"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"themr",
+				"Themr: List themes"
+			],
+			[
+				"packag",
+				"Package Control: List Packages"
+			],
+			[
+				"package rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"jshi",
+				"JSHint: Clear Annotations"
+			],
+			[
+				"forma",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"pack",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"format cod",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"\\",
+				"Origami: Zoom/Unzoom Current Pane (Toggle Zoom)"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"pretti",
+				"HTMLPrettify"
+			],
+			[
+				"prettif",
+				"HTMLPrettify"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"autop",
+				"Autoprefix CSS"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"origami",
+				"Origami: Save Current Layout"
+			],
+			[
+				"syntax",
+				"Set Syntax: Sass"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"git",
+				"Package Control: Install Package"
+			],
+			[
+				"orig",
+				"Origami: Save Current Layout"
+			],
+			[
+				"origa",
+				"Origami: Create Pane Below"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"vmem",
+				"View: Toggle Minimap"
+			]
+		],
+		"width": 568.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/components/FormComponent/FormComponent.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/minooHouse/assets/styles/partials/_findus.scss",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/minooHouse/Gruntfile.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/minooHouse/assets/styles/partials/_thehostel.scss",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/webpack.config.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/minooHouse/content.php",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/minooHouse/page.php",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/minooHouse/front-page.php",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/twentyfifteen/functions.php",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/twentyfourteen/functions.php",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/twentysixteen/functions.php",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/minooHouse/functions.php",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/minooHouse/content-page.php",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/minooHouse/footer.php",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/minooHouse/header.php",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/minooHouse/assets/js/source/main.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/minooHouse/assets/styles/partials/_nav.scss",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/minooHouse/assets/styles/partials/_page-home.scss",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/minooHouse/assets/styles/partials/_bartrartresidency.scss",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/minooHouse/assets/styles/partials/_header.scss",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/minooHouse/assets/styles/partials/_rooms.scss",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/minooHouse/assets/styles/partials/_layout.scss",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/minooHouse/assets/styles/partials/_buttons.scss",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/minooHouse/assets/styles/partials/_faq.scss",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/minooHouse/assets/styles/partials/_thehouse.scss",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/minooHouse/style.css",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/minooHouse/assets/styles/partials/_general.scss",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/minooHouse/assets/styles/partials/_footer.scss",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/OverlayMagician/product/webpack.config.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/minooHouse/index.php",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/minooHouse/assets/styles/style.scss",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/minooHouse/assets/js/main.min.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/index.php",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/gibbernaut/src/gibbernaut-vue/src/assets/scss/legacy/base/_main.scss",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/gibbernaut/src/gibbernaut-vue/src/assets/scss/legacy/components/_cover.scss",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/gibbernaut/src/gibbernaut-vue/src/assets/scss/trumps/_trumps.scss",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/gibbernaut/src/gibbernaut-vue/src/assets/scss/trumps/_index.scss",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/gibbernaut/src/gibbernaut-vue/src/assets/scss/legacy/components/_main.scss",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/gibbernaut/src/gibbernaut-vue/src/assets/scss/legacy/components/_buttons.scss",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/gibbernaut/src/gibbernaut-vue/src/assets/scss/legacy/index.scss",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/gibbernaut/src/gibbernaut-vue/src/assets/scss/legacy/components/_info.scss",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/core/gameplay/worldstate.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/core/gameplay/puppetmaster.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/archives/src_start/src/components/App/App.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/core/gameplay/enchiridion.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/actions/initialiseGame.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/reducers/game.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/reducers/user.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/core/gameplay/director.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/actions/userActions.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/PlayerActor/PlayerActor.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/App/App.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/reducers/intl.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/tools/webpack.config.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/actions/inititialiseGame.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/constants/index.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/reducers/runtime.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/reducers/index.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/actions/runtime.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/reducers/character.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/actions/actorActions.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/core/gameplay/DirectorHotline.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/MoveActor/MoveActor.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/archives/src_start/src/components/variables.css",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/archives/src_start/src/components/Html.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/archives/src_start/src/components/withViewport.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/archives/src_start/src/components/App/App.css",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/archives/src_start/src/components/App/App.test.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/actions/route.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/actions/intl.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/store/configureStore.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/store/createHelpers.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/archives/src_start/src/components/Link/Link.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/archives/src_start/src/components/Provide/IntlProvider.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/archives/src_start/src/components/Provide/Provide.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/archives/src_start/src/components/Navigation/Navigation.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/archives/src_start/src/components/Feedback/Feedback.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/archives/src_start/src/components/Header/Header.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/actions/userActions",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/PowerUp/PowerUp.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/PowerUp/PowerUp.css",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/Greeting/Greeting.css",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/StatContainer/StatContainer.css",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/App/App.css",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/SpawnActor/SpawnActor.css",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/PlayerActor/PlayerActor.css",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/ActionContainer/ActionContainer.css",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/StopActor/StopActor.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/Counter/Counter.css",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/HitCounter/HitCounter.css",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/MoveActor/MoveActor.css",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/NPCActor/NPCActor.css",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/SpawnActor/SpawnActor.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/ActionBar/ActionBar.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/ActionBar/ActionBar.css",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/StopActor/StopActor.css",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/gibbernaut/src/gibbernaut-vue/src/server/config/express.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/gibbernaut/src/gibbernaut-vue/src/server/config/keys/hiddenkeys.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/gibbernaut/src/gibbernaut-vue/src/server/config/passport.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/gibbernaut/src/gibbernaut-vue/src/main.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/gibbernaut/src/gibbernaut-vue/src/infrastructure.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/gibbernaut/src/gibbernaut-vue/config/index.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/gibbernaut/src/gibbernaut-vue/config/dev.env.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/node_modules/wolfy87-eventemitter/EventEmitter.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/core/DOMUtils.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/gibbernaut/src/gibbernaut-vue/build/webpack.base.conf.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/StopActor/package.json",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/NPCActor/NPCActor.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/Counter/Counter.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/build/assets.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/build/server.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/MoveActor/package.json",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/SpawnActor/package.json",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/HitCounter/HitCounter.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/HitCounter/package.json",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/NPCActor/package.json",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/Counter/package.json",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/PlayerActor/package.json",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/ActionContainer/ActionContainer.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/Greeting/Greeting.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/PowerUp/package.json",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/Greeting/package.json",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/ActionContainer/package.json",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/content/about.md",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/content/index.md",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/core/passport.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/StatContainer/StatContainer.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/variables.css"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"D:\\1 - CORTANA\\3 - Projects\\18 - Coding\\src\\Web\\freelance\\2016\\minoohouse\\srv\\htdocs\\wp\\wp-content\\themes\\minooHouse\\assets\\styles",
+			"D:\\1 - CORTANA\\3 - Projects\\18 - Coding\\src\\Web\\freelance\\2016\\minoohouse\\srv\\htdocs\\wp\\wp-content\\themes\\minooHouse\\assets",
+			"D:\\1 - CORTANA\\3 - Projects\\18 - Coding\\src\\Web\\freelance\\2016\\minoohouse\\srv\\htdocs\\wp\\wp-content\\themes\\minooHouse\\",
+			"D:\\1 - CORTANA\\3 - Projects\\18 - Coding\\src\\Web\\freelance\\2016\\minoohouse\\srv\\htdocs\\wp\\wp-content\\themes\\minooHouse\\assets\\styles\\",
+			"D:\\1 - CORTANA\\3 - Projects\\18 - Coding\\src\\Web\\freelance\\2016\\minoohouse\\srv\\htdocs\\wp\\wp-content\\themes\\minooHouse\\assets\\styles\\partials",
+			"<open folders>",
+			"D:\\1 - CORTANA\\3 - Projects\\18 - Coding\\src\\Web\\personal\\heartofgold\\src\\",
+			"D:\\1 - CORTANA\\3 - Projects\\18 - Coding\\src\\Web\\personal\\heartofgold\\src\\src\\components",
+			"D:\\1 - CORTANA\\3 - Projects\\18 - Coding\\src\\Web\\freelance\\2016\\minoohouse\\srv\\htdocs\\wp\\wp-content\\themes\\minooHouse",
+			"D:\\1 - CORTANA\\3 - Projects\\18 - Coding\\src\\Web\\gibbernaut\\src\\gibbernaut-vue\\src",
+			"D:\\1 - CORTANA\\3 - Projects\\18 - Coding\\src\\Web\\gibbernaut\\src\\gibbernaut-vue\\src\\app\\",
+			"D:\\1 - CORTANA\\3 - Projects\\18 - Coding\\src\\Web\\gibbernaut\\src\\gibbernaut-vue\\src\\app\\pages",
+			"D:\\1 - CORTANA\\3 - Projects\\18 - Coding\\src\\Web\\gibbernaut\\src\\gibbernaut-vue\\src\\app\\components",
+			"D:\\1 - CORTANA\\3 - Projects\\18 - Coding\\src\\Web\\gibbernaut\\src\\gibbernaut-vue\\src\\",
+			"D:\\1 - CORTANA\\3 - Projects\\18 - Coding\\src\\Web\\gibbernaut\\src\\gibbernaut-vue\\src\\app\\store\\scss",
+			"D:\\1 - CORTANA\\3 - Projects\\18 - Coding\\src\\Web\\gibbernaut\\src\\gibbernaut-vue\\src\\app\\store\\modules\\",
+			"C:\\Users\\Dean\\Downloads\\jwt-example-next\\resources\\frontend\\src\\app",
+			"C:\\Users\\Dean\\Downloads\\jwt-example-next",
+			"D:\\1 - CORTANA\\3 - Projects\\18 - Coding\\src\\Web\\gibbernaut\\src\\gibbernaut-vue\\src\\app",
+			"D:\\1 - CORTANA\\3 - Projects\\18 - Coding\\src\\Web\\gibbernaut\\src\\gibbernaut-vue\\app",
+			"D:\\1 - CORTANA\\3 - Projects\\18 - Coding\\src\\Web\\gibbernaut\\src\\gibbernaut-vue\\",
+			"D:\\1 - CORTANA\\3 - Projects\\18 - Coding\\src\\Web\\gibbernaut\\src\\gibbernaut-vue\\src",
+			"D:\\1 - CORTANA\\3 - Projects\\18 - Coding\\src\\Web\\gibbernaut\\src\\gibbernaut-vue\\",
+			"D:\\1 - CORTANA\\3 - Projects\\18 - Coding\\src\\Web\\gibbernaut\\src\\gibbernaut-vue\\src\\assets\\scss\\vendor\\fontawesome\\scss",
+			"D:\\1 - CORTANA\\3 - Projects\\18 - Coding\\src\\Web\\gibbernaut\\src\\gibbernaut-vue\\src\\assets",
+			"D:\\1 - CORTANA\\3 - Projects\\18 - Coding\\src\\Web\\gibbernaut\\src\\gibbernaut-vue\\app\\",
+			"D:\\1 - CORTANA\\3 - Projects\\18 - Coding\\src\\Web\\gibbernaut\\src\\gibbernaut\\app\\views",
+			"D:\\1 - CORTANA\\3 - Projects\\18 - Coding\\src\\Web\\gibbernaut\\src\\gibbernaut\\public\\css",
+			"D:\\1 - CORTANA\\3 - Projects\\18 - Coding\\src\\Web\\gibbernaut\\src\\gibbernaut-vue\\src\\assets\\scss",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"",
+			"throw",
+			"mutation",
+			"arabic",
+			"FormComponent",
+			"imagemin",
+			"340",
+			"auto",
+			"100%",
+			"max-width",
+			"width",
+			"$size-customElementPost__image--large",
+			"large",
+			"10",
+			"console.log",
+			"title",
+			"655",
+			"782",
+			"46px",
+			"782",
+			"782px",
+			"782",
+			"400",
+			"max-width",
+			"faq",
+			"FAQ",
+			"margin-top",
+			"site-header",
+			"550px",
+			"-10",
+			"67px,",
+			"67",
+			"-10",
+			".meta",
+			"initialiseGame",
+			".character",
+			"character.",
+			"gameinit",
+			"character",
+			"game",
+			"props.",
+			"actor.",
+			"context",
+			"History",
+			"store",
+			"connect",
+			"babel",
+			"babel-plugin-transform-react-remove-prop-types",
+			"store",
+			"ee.",
+			".actor{",
+			".actor",
+			"}",
+			"body",
+			"direct",
+			"enchir",
+			"ee",
+			"initia",
+			"hiddenkeys",
+			"director",
+			"powerup",
+			"alias",
+			"plugins",
+			"opacity",
+			"rgb",
+			"getOffset",
+			"p",
+			"img",
+			"width",
+			"first",
+			".find",
+			"50%",
+			"on click",
+			"footer",
+			"))\n",
+			"ul",
+			"menu-i",
+			"header",
+			"opacity",
+			"-1",
+			"1145",
+			"header__icons",
+			"menu",
+			"37px",
+			"left: 10px",
+			"this",
+			"header",
+			"max-h",
+			"ease",
+			"top:9",
+			"addr",
+			"address",
+			"max-width",
+			"margin-left: 2px !important;",
+			"margin-left:2px !important;",
+			"margin-left: 2px !important;",
+			"margin-left 2px !important;",
+			"top: 20",
+			"270deg",
+			"linear",
+			"280px",
+			"ease",
+			"book",
+			"booknow",
+			"watch",
+			"max-width",
+			"input[type=\"submit\"]",
+			"type=\"submit\"",
+			"\"submit\"",
+			"padding: 0 !important;",
+			"!importa",
+			"bannerc",
+			"bannercaption",
+			"font-weight:",
+			"font-weight: 700;",
+			"weight",
+			"/assets/images/apple-touch-icon.png",
+			"image",
+			"20px",
+			"opacity",
+			"afterhero",
+			"overlay",
+			"<?php the_title( '<h1 class=\"entry-title\">', '</h1>' ); ?>",
+			"entry-h",
+			"0",
+			"no",
+			"entry-content",
+			"entry"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'",
+			"logMessage",
+			"TestBed",
+			"//console.log",
+			"1192",
+			"1180",
+			"$",
+			"$.",
+			"",
+			"errorUnauthorisedAccess",
+			"config.jwtSecret",
+			"jwtSecret",
+			"errorUnauthorisedAccess",
+			"</router-link>",
+			"<router-link to=",
+			"uchebnik",
+			"//console.log",
+			"console.log",
+			"'",
+			"String",
+			"\"</span>",
+			"<span class=\"text-ru\">\"",
+			"\"",
+			"//console.log",
+			"<em>(",
+			")</em>",
+			"<em>(",
+			"wordsLibExAdjectives",
+			"textItemCorrect",
+			"resultValidityAnswer",
+			"showItemNext",
+			"showResultAnswer",
+			"itemCorrect",
+			"answerCorrect",
+			"this.userInput ",
+			"this.itemTypeCount",
+			"itemTypeCount",
+			"textItemCorrect",
+			"currentTextItemCorrect",
+			"textAnswerCorrect",
+			"currentTextAnswerCorrect",
+			"wordsLibExNounsLearned",
+			"wordsLibExNounsConjugations",
+			"wordsLibExNounsReservoir",
+			"libExNounsViewModel",
+			"wordsEXVerbs",
+			"processWordDatabank.markWordLearnedIncludeMutation(this.textRussianCard, this.queryConjugationType, this.textConjugationCorrect, wordsEXVerbsActive, wordsEXVerbsLearned, wordsEXVerbsConjugations);",
+			"libExVerbsVM",
+			"wordsEXVerbsLearned",
+			"wordsEXVerbsActive",
+			"markWordLearnedC1M2(this.textRussianCard, this.queryConjugationType, this.textConjugationCorrect, wordsEXVerbsActive, wordsEXVerbsLearned, wordsEXVerbsConjugations);",
+			"markWordLearnedC1M2(this.textRussianCard, this.queryConjugationType, this.textConjugationCorrect, wordsEXVerbsActive, wordsEXVerbsLearned);",
+			"EXVerbsActive",
+			"wordsEXVerbsActive",
+			"class=\"btn btn-missionplate--item\"><span class=\"fa fa-check\">",
+			"<span class=\"fa fa-object-group\"></span>&nbsp; Mission",
+			"<!-- <p><a href=\"/launchpad/campaign1/mission3\" class=\"btn btn-missionplate_freestanding\"><span class=\"fa fa-object-group\"></span>&nbsp; Drawing board</a></p> -->",
+			"",
+			"missionplate_missionbanner",
+			"//console.log(",
+			"(blue bar fills)",
+			"_c1_r",
+			"btn-mission--right--progress",
+			"btn-mission--right--stat",
+			"resultCheckValidity",
+			"resultValidityCheck",
+			"answerCorrectA3",
+			"answerCorrectA1",
+			"answerCorrectA2",
+			"C1M5OptionsActive",
+			"C1M5OptionsReservoir",
+			"C1M5OptionsActive",
+			"C1M5optionsActive",
+			"C1M5optionsReservoir",
+			"wordsC1M5AnswerActive",
+			"wordsC1M5PronounsReservoir",
+			"this.correctAnswer",
+			"getCorrectPronoun",
+			"moveObject",
+			"wordsC1M5PronounsReservoir",
+			"C1M4",
+			"markWordLearnedC1M2",
+			"C1M3",
+			"write.val",
+			"'",
+			"wordsEXVerbsConjugations",
+			"wordsEXVerbsLearned",
+			"wordsEXVerbsActive",
+			"wordsEXFlashLearned",
+			"wordsEXFlashActive",
+			"libExFlashcardsVM",
+			"<strong>just</strong>",
+			"processWordDatabank.markWordLearnedC1M2",
+			"campaign",
+			"campaignview",
+			"<p",
+			"</p>",
+			"<p>",
+			"markWordLearnedC1M2",
+			"markWordLearnedC1M1",
+			"flashcardC1M3ViewModel",
+			"showFinish",
+			"missionReset",
+			"missionFinish",
+			"missionReset",
+			"wordsC1M1Active",
+			"wordsC1M1Learned",
+			"wordsC1M1DBLearned",
+			"document.getElementById('section__contact').style.marginTop =  \"300px\";",
+			"document.getElementById('section__contact').style.marginTop =  \"400px\";",
+			"document.getElementById('section__contact').style.marginTop =  \"200px\";",
+			"deActivateLoadIframe",
+			"activateDeLoadIframe",
+			"deActivateLoadIframe",
+			"deActivateLoadDiv",
+			"activateDeLoadDiv =",
+			"activateDeLoadIframe =",
+			"portfoliooverviewactivation",
+			"portfoliooverviewactive",
+			"deLoadIframes();",
+			"initialportfolioload",
+			"fadeOutLeft",
+			"fadeInRight",
+			"fadeInRightBig",
+			"bounceIn",
+			"iframeLoaded",
+			"section__portfolio__loadingspinner",
+			"#cover__logo"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/helpers/translateNumber.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7304,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6450,
+								6450
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										6454,
+										6455
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										6422,
+										6423
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/components/TestBed/TestBed.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3360,
+								3360
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										3359,
+										3360
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										3349,
+										3350
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/JSX/JSX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2280.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/components/root/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 549,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								280,
+								280
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/JSX/JSX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/helpers/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1315,
+								1315
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1359,
+										1360
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1274,
+										1275
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/helpers/mutation.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 884,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								225,
+								225
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										830,
+										831
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										223,
+										224
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 57.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/helpers/logger.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1241,
+								1241
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1241,
+										1242
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1201,
+										1202
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 570.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/helpers/loggersupport.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2636,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2018,
+								2018
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2347,
+										2348
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1955,
+										1956
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1197.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/helpers/consoleLogger.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1375,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								391,
+								391
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1292,
+										1293
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										363,
+										364
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 114.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 8,
+					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/components/TestBed/TestBed.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2392,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								217,
+								217
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/Sunrise Theme/Langs/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								186,
+								186
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										229,
+										230
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										166,
+										167
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"is_xml": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 969.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 10,
+					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2362,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1103,
+								1103
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2201,
+										2202
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										906,
+										907
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/Sunrise Theme/Langs/npm JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 475.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 58.0
+	},
+	"input":
+	{
+		"height": 79.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				3,
+				1
+			],
+			[
+				3,
+				0,
+				5,
+				1
+			],
+			[
+				0,
+				1,
+				2,
+				2
+			],
+			[
+				2,
+				1,
+				4,
+				2
+			],
+			[
+				4,
+				1,
+				5,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.355743544078,
+			0.378005342832,
+			0.802092609083,
+			0.824354407836,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.683006535948,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 122.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.scopehunter.results":
+	{
+		"height": 122.0
+	},
+	"pinned_build_system": "",
+	"project": "loggerSublime.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"src\\gibbernaut-vue\\build\\webpack.base.conf.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"dfw_is_in_fs": true
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 190.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}

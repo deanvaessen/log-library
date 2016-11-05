@@ -1,0 +1,2 @@
+dev - Holds the development folder
+prod- Simulates a bare test environment (e.g.: someone else's project) to import the library and see if it works

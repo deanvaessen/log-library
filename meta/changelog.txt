@@ -1,0 +1,2 @@
+04/11/2016 - 0.0.1: Initial structure of the logger functions
+05/11/2016 - 0.0.1: Set up build environment, revamped component from previous project as a testbed.
