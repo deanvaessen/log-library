@@ -45,7 +45,7 @@ class TestBed extends React.Component {
 			this.onChangeLogLocationLookIn = handle.onChangeLogLocationLookIn.bind(this);
 
 		// Vars
-		this.shouldHideTranslationHeader = true;
+		this.shouldHideResultHeader = true;
 
 		// State
 		this.state = {
@@ -82,17 +82,25 @@ class TestBed extends React.Component {
 				logMessage : '',
 				resultLoggedMessage : '',
 				logLocationPath : '',
-				shouldHideTranslationHeader : true
+				shouldHideResultHeader : true
 			});
 	}
 
 	mutateComponent(payload){
+		console.log('payload');
+		console.log(payload);
 
-		this.shouldHideTranslationHeader = false;
+		// Show the results block in the view
+		this.shouldHideResultHeader = false;
+
+		// Define the view data
+		const messageContent = payload.messageContent,
+			writePath = payload.writePath;
 
 		// Pass back into the view
 		this.setState(this.props.fields.resultLoggedMessage = {
-			value : payload,
+			value : messageContent,
+			writePath : writePath,
 			events : this.props.fields.resultLoggedMessage.events,
 			valid : this.props.fields.resultLoggedMessage.valid
 		});
@@ -220,10 +228,10 @@ class TestBed extends React.Component {
 								</div>
 							</div>
 
-							<hr className={this.shouldHideTranslationHeader ? 'hidden' : ''} />
+							<hr className={this.shouldHideResultHeader ? 'hidden' : ''} />
 
-							<div className={this.shouldHideTranslationHeader ? 'hidden' : 'TestBed__resultLoggedMessage'}>
-								<h4 className={this.shouldHideTranslationHeader ? 'hidden header' : 'header'}>
+							<div className={this.shouldHideResultHeader ? 'hidden' : 'TestBed__resultLoggedMessage'}>
+								<h4 className={this.shouldHideResultHeader ? 'hidden header' : 'header'}>
 									Your logged message:
 								</h4>
 								<br />
@@ -239,6 +247,20 @@ class TestBed extends React.Component {
 									'TestBed__outputresultLoggedMessage'
 								}
 								>{this.props.fields.resultLoggedMessage.value}</p>
+
+								<div className=
+								{
+									(
+									this.props.fields.logLocationPath.value && this.state.checked.logOutput.file
+									) ? 'TestBed__resultLoggedPath' : 'hidden'
+								}>
+									<h4>
+										Your log location:
+									</h4>
+									<p className='TestBed__outputresultLoggedMessage'>
+										{this.props.fields.resultLoggedMessage.writePath}
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -246,7 +268,7 @@ class TestBed extends React.Component {
 							<button className="TestBed__submit" type="submit">Submit</button>
 							<button className="TestBed__clear" type="button" onClick=
 							{(event) => {
-								this.shouldHideTranslationHeader = true;
+								this.shouldHideResultHeader = true;
 								this.props.clearForm();
 							}}>Clear</button>
 						</div>

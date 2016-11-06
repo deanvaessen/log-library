@@ -21,6 +21,7 @@ let exposed = new class {
 
 	postLog(input, callback) {
 		console.log('communicator_postLog: Fire');
+		console.log(input);
 
 		const messageOutput = input.messageOutput;
 
@@ -35,7 +36,8 @@ let exposed = new class {
 				// send an AJAX  request to the backend to test the fileLogger
 				ajax.post('http://localhost:8001/api/log/create', input, function (response) {
 					console.log('communicator_postLog: Finished');
-					console.log(response);
+					response = JSON.parse(response);
+
 					callback(response);
 				}, true, 'JSON');
 

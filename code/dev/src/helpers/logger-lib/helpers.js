@@ -50,9 +50,19 @@
 		time : function () {
 			const currentTime = new Date(),
 					hour = currentTime.getHours(),
-					min = currentTime.getMinutes(),
-					sec = currentTime.getSeconds(),
-					timeString = hour + ':' + min + ':' + sec;
+					min = currentTime.getMinutes();
+
+			let sec = currentTime.getSeconds().toString();
+
+			console.log(typeof (sec));
+			console.log(sec);
+
+			// Adding a 0 in front of single characters looks better in the log.
+			if (sec.length === 1) {
+				sec = '0' + sec.toString();
+			};
+
+			const timeString = hour + ':' + min + ':' + sec;
 
 			return timeString;
 		}

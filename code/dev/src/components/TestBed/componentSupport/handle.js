@@ -25,6 +25,9 @@ let exposed = new class {
 
 		this.setState({
 			logLevel : e.currentTarget.value,
+			logOutput : this.state.logOutput,
+			logLocationLookIn : this.state.logLocationLookIn,
+			logLocationLookPath : this.state.logLocationLookPath,
 			checked : {
 				logLevel : {
 					debug : (e.currentTarget.value === 'debug' ? true : false),
@@ -50,7 +53,10 @@ let exposed = new class {
 		this.shouldHideTranslationHeader = true;
 
 		this.setState({
+			logLevel : this.state.logLevel,
 			logOutput : e.currentTarget.value,
+			logLocationLookIn : this.state.logLocationLookIn,
+			logLocationLookPath : this.state.logLocationLookPath,
 			checked : {
 				logLevel : {
 					debug : this.state.checked.logLevel.debug,
@@ -76,7 +82,10 @@ let exposed = new class {
 		this.shouldHideTranslationHeader = true;
 
 		this.setState({
+			logLevel : this.state.logLevel,
+			logOutput : this.state.logOutput,
 			logLocationLookIn : e.currentTarget.value,
+			logLocationLookPath : this.state.logLocationLookPath,
 			checked : {
 				logLevel : {
 					debug : this.state.checked.logLevel.debug,
@@ -135,6 +144,11 @@ let exposed = new class {
 			return;
 		}
 
+		if (logLocationPathFiltered.match(/[\<\>;:.\^\,]+/i)) {
+			alert('Please remove illegal characters from the sub-path');
+			return;
+		}
+
 		// No errors found, continue.
 
 		// Log the message
@@ -157,10 +171,9 @@ let exposed = new class {
 					if (logLocationPathFiltered !== ''){
 						let messageLocationPath = logLocationPath;
 
-						// Filter a slash if it exists at char location 0
-						if (messageLocationPath.charAt(0) === '/'){
-							messageLocationPath = messageLocationPath.slice(1, messageLocationPath.length);
-						}
+						// Filter a slash if it exists at char location 0 or last
+						messageLocationPath = helpers.mutation.typography.filterSpecificFirstChar(messageLocationPath, '/');
+						messageLocationPath = helpers.mutation.typography.filterSpecificLastChar(messageLocationPath, '/');
 
 						newLogMessage.messageLocationPath = messageLocationPath;
 					}

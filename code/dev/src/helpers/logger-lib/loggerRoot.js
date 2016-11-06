@@ -31,7 +31,8 @@ const logger = (function () {
 		 */
 
 		const log = (input, callback) => {
-
+			console.log('input');
+			console.log(input);
 			const messageContent = input.messageContent,
 						messageLevel = input.messageLevel,
 						messageOutput = input.messageOutput,

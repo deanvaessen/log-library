@@ -52,7 +52,7 @@ require('core-js/fn/object/assign');
 			let payload = req.body;
 
 			logger.log(payload, function(loggedItem){
-				res.send(loggedItem);
+				res.json(loggedItem);
 				next();
 			});
 		});

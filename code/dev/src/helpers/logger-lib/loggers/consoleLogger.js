@@ -20,6 +20,10 @@ import helpers from './../helpers';
 
 	const log = (messageContent, messageLevel, callback) => {
 
+		const result = {
+			messageContent : messageContent
+		};
+
 		// Add colours
 		const styledMessageContent = '%c' + messageContent;
 
@@ -27,17 +31,17 @@ import helpers from './../helpers';
 			case 'debug':
 				console.debug(styledMessageContent, 'color: grey');
 
-				callback ? callback(messageContent) : ' ';
+				callback ? callback(result) : ' ';
 				break;
 			case 'info':
 				console.info(styledMessageContent, 'color: green');
 
-				callback ? callback(messageContent) : ' ';
+				callback ? callback(result) : ' ';
 				break;
 			case 'error':
 				console.error(styledMessageContent, 'color: red');
 
-				callback ? callback(messageContent) : ' ';
+				callback ? callback(result) : ' ';
 				break;
 			default:
 				//console.log('Sorry, the logger did not recognise this messageLevel for the console.log messageOutput');

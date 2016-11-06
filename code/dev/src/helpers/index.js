@@ -21,6 +21,12 @@ const index = (function () {
 					capitaliseFirstLetter : function (input){
 						return MutationHelpers.typography.capitaliseFirstLetter(input);
 					},
+					filterSpecificFirstChar : function (input, charFilter){
+						return MutationHelpers.typography.filterSpecificFirstChar(input, charFilter);
+					},
+					filterSpecificLastChar : function (input, charFilter){
+						return MutationHelpers.typography.filterSpecificLastChar(input, charFilter);
+					},
 					removeWhitespace : function (input){
 						return MutationHelpers.typography.removeWhitespace(input);
 					},

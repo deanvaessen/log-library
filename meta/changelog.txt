@@ -1,3 +1,4 @@
 04/11/2016 - 0.0.1: Initial structure of the logger functions
 05/11/2016 - 0.0.2: Set up build environment, revamped component from previous project as a testbed.
 06/11/2016 - 0.0.3: File logger frontend + backend + library code OK.
+07/11/2016 - 0.0.4: File logger fixes (read only .txt files on scanning log directory, misc), add 0 for single seconds to improve log readability.

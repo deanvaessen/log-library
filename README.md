@@ -8,4 +8,6 @@
 * For tests: npm test
 
 # Library dependencies
+* NodeJS
 * FS
+* Path
