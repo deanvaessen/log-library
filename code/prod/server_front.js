@@ -17,19 +17,12 @@ require('core-js/fn/object/assign');
 	const config = require('./webpack.config');
 	const open = require('open');
 
-	// Copy logger-lib to build folder
+	// For copying logger-lib to build folder
 	const ncp = require('ncp').ncp;
 
 	ncp.limit = 16;
 
 	ncp('./src/helpers/logger-lib', './../build/src/lib', function (err) {
-		if (err) {
-			return console.error(err);
-		}
-	});
-
-	// Copy component code to protected
-	ncp('./src/components/TestBed', './../prod/src/components/TestBed', function (err) {
 		if (err) {
 			return console.error(err);
 		}

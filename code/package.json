@@ -1,0 +1,20 @@
+{
+	"private": true,
+	"version": "0.0.1",
+	"name": "log-library-SDK",
+	"description": "Logging library",
+	"main": "",
+	"scripts": {
+		"start" : "cd /dev && npm run start",
+		"dev" : "cd /dev && npm run start",
+		"build" : "cd /build && npm run build",
+		"prod" : "cd /prod && npm run start"
+	},
+	"repository": "",
+	"keywords": [],
+	"author": "Dean Vaessen",
+	"devDependencies": {
+	},
+	"dependencies": {
+	}
+}

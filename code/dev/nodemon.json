@@ -1,4 +1,4 @@
 {
   "verbose": true,
-  "ignore": ["./src", "README"]
+  "ignore": ["README"]
 }
