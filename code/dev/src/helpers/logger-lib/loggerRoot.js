@@ -1,5 +1,5 @@
 /*******************************
- * [_root.js]
+ * [_loggerRoot.js]
  * Define the base logger code here
  ******************************/
  /**
@@ -34,7 +34,8 @@ const logger = (function () {
 
 			const messageContent = input.messageContent,
 						messageLevel = input.messageLevel,
-						messageOutput = input.messageOutput;
+						messageOutput = input.messageOutput,
+						processedPackage = input;
 
 			// Preprocessing
 			const messageLengthIsValid = helpers.validate.messageLength(messageContent);
@@ -42,6 +43,8 @@ const logger = (function () {
 			messageLengthIsValid ? ' ' : helpers.error.throw('Message is too long!');
 
 			const formattedMessage = helpers.format.message(messageContent, messageLevel);
+
+			processedPackage.messageContent = formattedMessage;
 
 			// Talk to a logger based on the output type
 			switch (messageOutput) {
@@ -53,10 +56,8 @@ const logger = (function () {
 					// cannot run in the browser, so validate environement
 					const environment = helpers.validate.environment();
 
-					console.log(environment);
-
 					environment === 'node' ?
-					fileLogger.log(formattedMessage, messageLevel, callback) :
+					fileLogger.log(processedPackage, callback) :
 					helpers.error.throw('Log to file has to be called processed by Node.JS');
 
 					break;

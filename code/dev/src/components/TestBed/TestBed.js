@@ -2,18 +2,19 @@
  * [_TestBed.js]
  * Define the TestBed code here
  ******************************/
-/*eslint-disable */
+
 /* eslint react/prop-types: 0 */
 
 /**
 * { Dependencies }
 */
+
+require('./TestBed.scss');
+
 import React from 'react';
 import Formous from 'formous';
-require('./TestBed.scss');
+import handle from './componentSupport/handle';
 import helpers from './../../helpers/index';
-import communicator from './communicator';
-
 
 /**
  * { Component }
@@ -35,22 +36,27 @@ class ErrorText extends React.Component {
 class TestBed extends React.Component {
 	constructor(props) {
 		super(props);
-		this.handleSubmit = this.handleSubmit.bind(this);
-		this.handleKeyPress = this.handleKeyPress.bind(this);
-		this.mutateComponent = this.mutateComponent.bind(this);
+		// Handlers
+			this.handleSubmit = handle.submit.bind(this);
+			this.handleKeyPress = handle.keyPress.bind(this);
+			this.mutateComponent = this.mutateComponent.bind(this);
+			this.onChangeLogLevel = handle.onChangeLogLevel.bind(this);
+			this.onChangeLogOutput = handle.onChangeLogOutput.bind(this);
+			this.onChangeLogLocationLookIn = handle.onChangeLogLocationLookIn.bind(this);
+
+		// Vars
 		this.shouldHideTranslationHeader = true;
-		this.onChangeLogLevel = this.onChangeLogLevel.bind(this);
-		this.onChangeLogOutput = this.onChangeLogOutput.bind(this);
-		this.onChangeLogLocationLookIn = this.onChangeLogLocationLookIn.bind(this);
+
+		// State
 		this.state = {
-			logLevel: '',
-			logOutput: '',
-			logLocationLookin: '',
+			logLevel : '',
+			logOutput : '',
+			logLocationLookIn : '',
 			checked : {
 				logLevel : {
 					debug : false,
 					info : false,
-					error: false
+					error : false
 				},
 				logOutput : {
 					console : false,
@@ -62,75 +68,25 @@ class TestBed extends React.Component {
 					driveRoot : false
 				}
 			}
-		}
+		};
 	}
 
 	componentWillMount() {
 	}
 
 	componentDidMount() {
-		const user = {test : 123};
 	}
 
 	componentWillReceiveProps(nextProps) {
 			this.props.setDefaultValues({
 				logMessage : '',
 				resultLoggedMessage : '',
+				logLocationPath : '',
 				shouldHideTranslationHeader : true
 			});
 	}
 
-	handleSubmit(formStatus, fields) {
-		// Initial state
-		let fieldState = this.props.fields;
-
-		if (!formStatus.touched && (this.state.logLevel == ' ' || this.state.logLevel === '') && (this.state.logOutput == ' ' || this.state.logOutput === '')) {
-			alert('Please fill out the form.');
-			return;
-		}
-
-		if (!formStatus.valid || helpers.mutation.typography.removeWhitespace(fieldState.logMessage.value) == '') {
-			alert('Please fill in a message');
-			return;
-		}
-
-		if (this.state.logLevel == ' ' || this.state.logLevel === '') {
-			alert('Please add a log level');
-			return;
-		}
-
-		if (this.state.logOutput == ' ' || this.state.logOutput === '') {
-			alert('Please add an output');
-			return;
-		}
-
-		// No errors found, continue.
-
-		// Log the message
-			// Define it
-			const newLogMessage = {
-				messageContent : fieldState.logMessage.value,
-				messageLevel : this.state.logLevel,
-				messageOutput : this.state.logOutput
-			};
-
-			const logOutput = this.state.logOutput;
-
-			// Fire off a the logging
-			communicator.postLog(newLogMessage, (result) => this.mutateComponent(result));
-	}
-
-	handleKeyPress(e) {
-		if (e.key === 'Enter') {
-			// Prevent enter key, Formous doesn't seem to like the enter key
-			e.preventDefault();
-		}
-	}
-
 	mutateComponent(payload){
-		console.log('----')
-		console.log(payload)
-		console.log('----')
 
 		this.shouldHideTranslationHeader = false;
 
@@ -142,89 +98,11 @@ class TestBed extends React.Component {
 		});
 	}
 
-	// onChange radiobuttons logLevel
-	onChangeLogLevel(e) {
-		this.props.fields.resultLoggedMessage.value = '';
-		this.shouldHideTranslationHeader = true;
-
-		this.setState({
-			logLevel: e.currentTarget.value,
-			checked : {
-				logLevel : {
-					debug : (e.currentTarget.value === 'debug' ? true : false),
-					info : (e.currentTarget.value === 'info' ? true : false),
-					error: (e.currentTarget.value === 'error' ? true : false)
-				},
-				logOutput : {
-					console : this.state.checked.logOutput.console,
-					file : this.state.checked.logOutput.file,
-					stream : this.state.checked.logOutput.stream
-				},
-				logLocationLookIn : {
-					projectRoot : this.state.checked.logLocationLookIn.projectRoot,
-					driveRoot : this.state.checked.logLocationLookIn.driveRoot,
-				}
-			}
-		})
-	}
-
-	// onChange radiobuttons logOutput
-	onChangeLogOutput(e) {
-		this.props.fields.resultLoggedMessage.value = '';
-		this.shouldHideTranslationHeader = true;
-
-		this.setState({
-		  logOutput: e.currentTarget.value,
-		  checked : {
-		  	logLevel : {
-		  		debug : this.state.checked.logLevel.debug,
-		  		info : this.state.checked.logLevel.info,
-		  		error: this.state.checked.logLevel.error,
-		  	},
-		  	logOutput : {
-		  		console : (e.currentTarget.value === 'console' ? true : false),
-		  		file : (e.currentTarget.value === 'file' ? true : false),
-		  		stream: (e.currentTarget.value === 'stream' ? true : false)
-		  	},
-		  	logLocationLookIn : {
-		  		projectRoot : this.state.checked.logLocationLookIn.projectRoot,
-		  		driveRoot : this.state.checked.logLocationLookIn.driveRoot,
-		  	}
-		  }
-		})
-	}
-
-	// onChange radiobuttons logLocationLookIn
-	onChangeLogLocationLookIn(e) {
-		this.props.fields.resultLoggedMessage.value = '';
-		this.shouldHideTranslationHeader = true;
-
-		this.setState({
-		  logLocationLookIn: e.currentTarget.value,
-		  checked : {
-		  	logLevel : {
-		  		debug : this.state.checked.logLevel.debug,
-		  		info : this.state.checked.logLevel.info,
-		  		error: this.state.checked.logLevel.error,
-		  	},
-		  	logOutput : {
-		  		console : this.state.checked.logOutput.console,
-		  		file : this.state.checked.logOutput.file,
-		  		stream : this.state.checked.logOutput.stream
-		  	},
-		  	logLocationLookIn : {
-		  		projectRoot : (e.currentTarget.value === 'projectRoot' ? true : false),
-		  		driveRoot : (e.currentTarget.value === 'driveRoot' ? true : false),
-		  	}
-		  }
-		})
-	}
-
 	render() {
 
 		/*eslint-disable */
 		const {
-			fields : { logMessage, resultLoggedMessage },
+			fields : { logMessage, resultLoggedMessage, logLocationPath },
 			formSubmit
 		} = this.props;
 		/*eslint-enable */
@@ -242,8 +120,8 @@ class TestBed extends React.Component {
 								<input
 									placeholder="Your message"
 									type="text"
-									ref="TestBed__inputlogMessage"
-									className="TestBed__inputlogMessage"
+									ref="TestBed__inputLogMessage"
+									className="TestBed__inputLogMessage"
 									value={logMessage.value}
 									onKeyPress={this.handleKeyPress}
 									{ ...logMessage.events }
@@ -256,21 +134,21 @@ class TestBed extends React.Component {
 										<h4 className="header">Which log level?</h4>
 										<div className="TestBed__optionsContainer">
 											<div className="TestBed__logOption">
-												<h5 className="header">Debug</h5>
+												<h5 className="subheader">Debug</h5>
 												<input type="radio" name="logLevel_debug"
 																	value="debug"
 																	onChange={this.onChangeLogLevel}
 																	checked={this.state.checked.logLevel.debug} />
 											</div>
 											<div className="TestBed__logOption">
-												<h5 className="header">Info</h5>
+												<h5 className="subheader">Info</h5>
 												<input type="radio" name="logLevel_info"
 																	value="info"
 																	onChange={this.onChangeLogLevel}
 																	checked={this.state.checked.logLevel.info} />
 											</div>
 											<div className="TestBed__logOption">
-												<h5 className="header">Error</h5>
+												<h5 className="subheader">Error</h5>
 												<input type="radio" name="logLevel_error"
 																	value="error"
 																	onChange={this.onChangeLogLevel}
@@ -283,21 +161,21 @@ class TestBed extends React.Component {
 										<h4 className="header">Which output?</h4>
 										<div className="TestBed__optionsContainer">
 											<div className="TestBed__logOption">
-												<h5 className="header">Console</h5>
+												<h5 className="subheader">Console</h5>
 												<input type="radio" name="logOutput_console"
 																	value="console"
 																	onChange={this.onChangeLogOutput}
 																	checked={this.state.checked.logOutput.console} />
 											</div>
 											<div className="TestBed__logOption">
-												<h5 className="header">File</h5>
+												<h5 className="subheader">File</h5>
 												<input type="radio" name="logOutput_file"
 																	value="file"
 																	onChange={this.onChangeLogOutput}
 																	checked={this.state.checked.logOutput.file} />
 											</div>
 											<div className="TestBed__logOption">
-												<h5 className="header">Stream</h5>
+												<h5 className="subheader">Stream</h5>
 												<input type="radio" name="logOutput_stream"
 																	value="stream"
 																	onChange={this.onChangeLogOutput}
@@ -307,18 +185,18 @@ class TestBed extends React.Component {
 									</div>
 									<br />
 
-									<div className={this.state.checked.logOutput.file ? "TestBed__logLocation" : "hidden"}>
-										<h4 className="header">Root 'look-in' directory:</h4>
+									<div className={this.state.checked.logOutput.file ? 'TestBed__logLocation' : 'hidden'}>
+										<h5 className="header">Log to which directory?</h5>
 										<div className="TestBed__optionsContainer">
 											<div className="TestBed__logOption">
-												<h5 className="header">Project root</h5>
+												<h6 className="subheader">Project root</h6>
 												<input type="radio" name="logLocation_lookInProjectRoot"
 																	value="projectRoot"
 																	onChange={this.onChangeLogLocationLookIn}
 																	checked={this.state.checked.logLocationLookIn.projectRoot} />
 											</div>
 											<div className="TestBed__logOption">
-												<h5 className="header">Drive root</h5>
+												<h6 className="subheader">Drive root</h6>
 												<input type="radio" name="logLocation_lookInDriveRoot"
 																	value="driveRoot"
 																	onChange={this.onChangeLogLocationLookIn}
@@ -326,15 +204,15 @@ class TestBed extends React.Component {
 											</div>
 										</div>
 
-										<h4 className="header">Set a path:</h4>
+										<h6 className="header">You may add a sub-path:</h6>
 										<input
 											placeholder="File path"
 											type="text"
-											ref="TestBed__inputlogMessage"
+											ref="TestBed__inputFileLocation"
 											className="TestBed__inputFileLocation"
-											value={logMessage.value}
+											value={logLocationPath.value}
 											onKeyPress={this.handleKeyPress}
-											{ ...logMessage.events }
+											{ ...logLocationPath.events }
 										/>
 									</div>
 									<br />
@@ -394,25 +272,50 @@ const formousOptions = {
 					},
 					test(value) {
 						if (typeof value === 'string' || typeof value === 'number'){
-							return true
-						} else {
-							return false
+							return true;
 						}
+
+						return false;
+					}
+				},
+				{
+					critical : true,
+					failProps : {
+						errorText : 'Your should input a message'
+					},
+					test(value) {
+						if (helpers.mutation.typography.removeWhitespace(value) == ''){
+							return false;
+						}
+						return true;
 					}
 				}
 			]
 		},
 		resultLoggedMessage : {
 			tests : [
-			{
-				critical : true,
-				failProps : {
-					errorText : 'N/A'
-				},
-				test(value) {
-					return true
+				{
+					critical : true,
+					failProps : {
+						errorText : 'N/A'
+					},
+					test(value) {
+						return true;
+					}
 				}
-			}
+			]
+		},
+		logLocationPath : {
+			tests : [
+				{
+					critical : true,
+					failProps : {
+						errorText : 'N/A'
+					},
+					test(value) {
+						return true;
+					}
+				}
 			]
 		}
 	}

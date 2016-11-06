@@ -10,8 +10,8 @@
 * Dependencies
 */
 
-import {ajax} from './../../helpers/utils.js';
-import logger from './../../helpers/logger-lib/root';
+import {ajax} from './../../../helpers/utils.js';
+import logger from './../../../helpers/logger-lib/loggerRoot';
 
 /**
  * Object

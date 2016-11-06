@@ -19,7 +19,7 @@ require('core-js/fn/object/assign');
 		import bodyParser from 'body-parser';
 
 	// Logger
-	import logger from './src/helpers/logger-lib/root';
+	import logger from './src/helpers/logger-lib/loggerRoot';
 
 /**
 * { Express }

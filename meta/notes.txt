@@ -5,3 +5,8 @@ Decrease size TestBed.js
 
 Tests would be a good extra addition in the future, I left the a test file and base architecture that I wrote for a previous project, 
 which could serve as a foundation to build on.
+
+Add a "build" folder to the main 2 folders for just building the lib. You can test the lib in a copy of folder dev with the
+build from the build folder.
+
+If lengthOfNewLog > totalCharactersLogFile -> new file.
