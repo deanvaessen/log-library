@@ -15,13 +15,19 @@
 		"release:patch": "npm version patch && npm publish && git push --follow-tags",
 		"serve": "node server.js --env=dev",
 		"serve:dist": "node server.js --env=dist",
-		"start-buildglue" : "nodemon buildglue.js --exec babel-node --presets es2015,stage-2 && nodemon run start-build",
+		"start-buildglue": "nodemon buildglue.js --exec babel-node --presets es2015,stage-2",
 		"start-front": "node server_front.js --env=dev",
 		"start-back": "nodemon server_back.js --exec babel-node --presets es2015,stage-2",
-		"start-build" : "cd .. && cd ./build && npm run build",
-		"start": "concurrently --kill-others \"npm run start-front\" \"npm run start-back\" \"npm run start-buildglue\"",
+		"start-watch": "npm-watch",
+		"start-build": "cd .. && npm run build",
+		"start": "concurrently --kill-others \"npm run start-front\" \"npm run start-back\" \"npm run start-buildglue\" \"npm run start-watch\"",
 		"test": "karma start",
 		"test:watch": "karma start --autoWatch=true --singleRun=false"
+	},
+	"watch": {
+	  "start-build": [
+	    "./src/helpers/logger-lib"
+	  ]
 	},
 	"repository": "",
 	"keywords": [],
@@ -63,6 +69,7 @@
 		"ncp": "^2.0.0",
 		"node-sass": "^3.10.1",
 		"nodemon": "^1.11.0",
+		"npm-watch": "^0.1.6",
 		"null-loader": "^0.1.1",
 		"open": "0.0.5",
 		"phantomjs-prebuilt": "^2.0.0",

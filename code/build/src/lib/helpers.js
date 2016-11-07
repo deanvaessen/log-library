@@ -54,9 +54,6 @@
 
 			let sec = currentTime.getSeconds().toString();
 
-			console.log(typeof (sec));
-			console.log(sec);
-
 			// Adding a 0 in front of single characters looks better in the log.
 			if (sec.length === 1) {
 				sec = '0' + sec.toString();
@@ -83,7 +80,7 @@
 
 			const messageLength = messageContent.length;
 
-			// Return true (valid) if the  length is <= 1000
+			// Return true (valid) if the length is <= 1000
 			return messageLength <= 1000 == true;
 		},
 

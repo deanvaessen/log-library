@@ -60,8 +60,10 @@ const logger = (function () {
 					const environment = helpers.validate.environment();
 
 					// Filter a slash if it exists at char location 0 or last
-					input.messageLocationPath = helpers.format.filterSpecificFirstChar(input.messageLocationPath, '/');
-					input.messageLocationPath = helpers.format.filterSpecificLastChar(input.messageLocationPath, '/');
+					if (input.messageLocationPath){
+						input.messageLocationPath = helpers.format.filterSpecificFirstChar(input.messageLocationPath, '/');
+						input.messageLocationPath = helpers.format.filterSpecificLastChar(input.messageLocationPath, '/');
+					}
 
 					environment === 'node' ?
 					fileLogger.log(processedPackage, callback) :

@@ -80,7 +80,7 @@
 
 			const messageLength = messageContent.length;
 
-			// Return true (valid) if the  length is <= 1000
+			// Return true (valid) if the length is <= 1000
 			return messageLength <= 1000 == true;
 		},
 

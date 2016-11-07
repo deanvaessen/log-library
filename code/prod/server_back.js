@@ -19,7 +19,7 @@ require('core-js/fn/object/assign');
 		import bodyParser from 'body-parser';
 
 	// Logger
-	import logger from './src/helpers/logger-lib/loggerRoot';
+	import logger from './src/helpers/logger-lib';
 
 /**
 * { Express }
@@ -50,6 +50,11 @@ require('core-js/fn/object/assign');
 	  */
 		app.post('/api/log/create', (req, res, next) => {
 			let payload = req.body;
+
+			// For testing the stream
+			if (payload.messageOutput == 'stream'){
+				payload.messageSourceStream = process.stdout;
+			}
 
 			logger.log(payload, function(loggedItem){
 				res.json(loggedItem);

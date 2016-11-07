@@ -1,4 +1,4 @@
 {
   "verbose": true,
-  "ignore": ["README"]
+  "ignore": ["README", "*.log"]
 }

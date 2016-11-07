@@ -41,7 +41,7 @@
 						return console.log(err);
 					}
 
-					console.log('A new log file was saved!!');
+					//console.log('A new log file was saved!');
 				});
 			};
 
@@ -52,7 +52,7 @@
 						return console.log(err);
 					}
 
-					console.log('The log file was appended!');
+					//console.log('The log file was appended!');
 				});
 			};
 
@@ -101,13 +101,10 @@
 			for (let i in fileArray) {
 				if (path.extname(fileArray[i]) === '.txt' && fileArray[i].includes('log')) {
 					logArray.push(fileArray[i]);
-					console.log('I am copying to the logArray: ', fileArray[i]);
+					//console.log('I am copying to the logArray: ', fileArray[i]);
 				}
 			}
 
-
-			console.log('logArra22y:');
-			console.log(logArray);
 
 			// Define the total
 			const logsAmount = logArray.length;
@@ -135,14 +132,11 @@
 			}
 
 			// Is there a mostRecentFile or is this the first item?
-			console.log('aaaaaaaaaaa');
-			console.log(mostRecentFilePath);
-
 			if (logsAmount != 0){
 				const fileStats = fs.statSync(mostRecentFilePath),
 						fileSizeInBytes = fileStats['size'];
 
-				console.log(fileSizeInBytes, messageInBytes);
+				//console.log(fileSizeInBytes, messageInBytes);
 				// Is the last log file still within 5000 bytes if I add this new logMessage?
 				if (fileSizeInBytes + messageInBytes < 5000){
 					// Append to file
@@ -172,7 +166,6 @@
 			writePath : messageLocationLookIn + writePath
 		};
 
-		console.log(result.writePath);
 		callback ? callback(result) : ' ';
 	};
 

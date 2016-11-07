@@ -1,6 +1,6 @@
 /*******************************
- * [_consoleLogger.js]
- * Define the consoleLogger function
+ * [_streamLogger.js]
+ * Define the streamLogger function
  ******************************/
 
 /**
@@ -24,10 +24,9 @@
 		// Support functions
 			// sparkles
 
-
 		// Definitions
-		const messageContent = input.messageContent;
-		const messageSourceStream = input.messageSourceStream;
+		const messageContent = input.messageContent,
+			messageSourceStream = input.messageSourceStream;
 
 
 			// Set up the read stream

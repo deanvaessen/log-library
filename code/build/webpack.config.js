@@ -2,6 +2,7 @@ var webpack = require('webpack');
 var UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 var path = require('path');
 var env = require('yargs').argv.mode;
+var nodeExternals = require('webpack-node-externals');
 
 var libraryName = 'Library';
 
@@ -24,22 +25,19 @@ var config = {
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
+  target: 'node', // in order to ignore built-in modules like path, fs, etc.
+  externals: [nodeExternals()], // in order to ignore all modules in node_modules folder
   module: {
     loaders: [
       {
         test: /(\.jsx|\.js)$/,
         loader: 'babel',
         exclude: /(node_modules|bower_components)/
-      },
-      {
-        test: /(\.jsx|\.js)$/,
-        loader: "eslint-loader",
-        exclude: /node_modules/
       }
-    ]
+    ],
   },
   node: {
-    fs: "empty"
+    fs: "empty",
   },
   resolve: {
     root: path.resolve('./src'),
