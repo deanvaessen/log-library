@@ -54,9 +54,6 @@
 
 			let sec = currentTime.getSeconds().toString();
 
-			console.log(typeof (sec));
-			console.log(sec);
-
 			// Adding a 0 in front of single characters looks better in the log.
 			if (sec.length === 1) {
 				sec = '0' + sec.toString();
@@ -129,6 +126,20 @@
 			formattedMessage = formattedMessage + '#' + '{' + messageContent + '}';
 
 			return formattedMessage;
+		},
+
+		filterSpecificFirstChar : function (input, charFilter) {
+			if (input.charAt(0) === charFilter){
+				input = input.slice(1, input.length);
+			}
+			return input;
+		},
+
+		filterSpecificLastChar : function (input, charFilter) {
+			if (input.charAt(input.length - 1) === charFilter){
+				input = input.slice(0, input.length - 1);
+			}
+			return input;
 		}
 	};
 

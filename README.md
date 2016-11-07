@@ -5,6 +5,9 @@
 
 ## Getting started
 * Clone
+
+** ?? FIRST RUN INSTALL: npm installChildren ??
+
 * cd /code/build/ -> npm install
 * cd /code/dev/ -> npm install
 * cd /code/prod/ -> npm install

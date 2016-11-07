@@ -45,6 +45,12 @@ let exposed = new class {
 			}
 			case 'stream': {
 				// code block for stream log
+				ajax.post('http://localhost:8001/api/log/create', input, function (response) {
+					console.log('communicator_postLog: Finished');
+					response = JSON.parse(response);
+
+					callback(response);
+				}, true, 'JSON');
 				break;
 			}
 			default: {

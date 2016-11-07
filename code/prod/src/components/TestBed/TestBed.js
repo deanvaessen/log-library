@@ -223,6 +223,12 @@ class TestBed extends React.Component {
 											{ ...logLocationPath.events }
 										/>
 									</div>
+
+									<div className={this.state.checked.logOutput.stream ? 'TestBed__streamNotice ' : 'hidden'}>
+										<h5 className="header">
+											To test logging to a stream, we will log to node.js's process.stdout.
+										</h5>
+									</div>
 									<br />
 									<br />
 								</div>

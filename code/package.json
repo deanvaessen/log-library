@@ -5,10 +5,11 @@
 	"description": "Logging library",
 	"main": "",
 	"scripts": {
-		"start" : "cd /dev && npm run start",
-		"dev" : "cd /dev && npm run start",
-		"build" : "cd /build && npm run build",
-		"prod" : "cd /prod && npm run start"
+		"start" : "cd ./dev && npm run start",
+		"dev" : "cd ./dev && npm run start",
+		"build" : "cd ./build && npm run build",
+		"prod" : "cd ./prod && npm run start",
+		"installChildren" : "cd ./dev && npm install && cd .. && cd /build && npm install && cd .. && cd ./prod && npm install"
 	},
 	"repository": "",
 	"keywords": [],

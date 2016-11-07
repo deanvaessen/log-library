@@ -129,6 +129,20 @@
 			formattedMessage = formattedMessage + '#' + '{' + messageContent + '}';
 
 			return formattedMessage;
+		},
+
+		filterSpecificFirstChar : function (input, charFilter) {
+			if (input.charAt(0) === charFilter){
+				input = input.slice(1, input.length);
+			}
+			return input;
+		},
+
+		filterSpecificLastChar : function (input, charFilter) {
+			if (input.charAt(input.length - 1) === charFilter){
+				input = input.slice(0, input.length - 1);
+			}
+			return input;
 		}
 	};
 

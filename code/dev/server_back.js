@@ -51,6 +51,11 @@ require('core-js/fn/object/assign');
 		app.post('/api/log/create', (req, res, next) => {
 			let payload = req.body;
 
+			// For testing the stream
+			if (payload.messageOutput == 'stream'){
+				payload.messageSourceStream = process.stdout;
+			}
+
 			logger.log(payload, function(loggedItem){
 				res.json(loggedItem);
 				next();

@@ -17,7 +17,7 @@
 
 	/**
 	 * { Log }
-	 * Log it with console.log
+	 * Log a file with fs
 	*/
 
 	const log = (input, callback) => {

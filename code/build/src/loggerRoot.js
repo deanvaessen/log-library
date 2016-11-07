@@ -1,5 +1,5 @@
 /*******************************
- * [_index.js]
+ * [_loggerRoot.js]
  * Define the base logger code here
  ******************************/
  /**
@@ -34,6 +34,7 @@ const logger = (function () {
 		const log = (input, callback) => {
 			console.log('input');
 			console.log(input);
+			console.log(typeof input);
 
 			const messageContent = input.messageContent,
 						messageLevel = input.messageLevel,
@@ -49,6 +50,7 @@ const logger = (function () {
 
 			processedPackage.messageContent = formattedMessage;
 
+			console.log('heyyy');
 			// Talk to a logger based on the output type
 			switch (messageOutput) {
 				case 'console': {
@@ -61,10 +63,6 @@ const logger = (function () {
 					// cannot run in the browser, so validate environement
 					const environment = helpers.validate.environment();
 
-					// Filter a slash if it exists at char location 0 or last
-					input.messageLocationPath = helpers.format.filterSpecificFirstChar(input.messageLocationPath, '/');
-					input.messageLocationPath = helpers.format.filterSpecificLastChar(input.messageLocationPath, '/');
-
 					environment === 'node' ?
 					fileLogger.log(processedPackage, callback) :
 					helpers.error.throw('Log to file has to be called processed by Node.JS');
@@ -73,6 +71,7 @@ const logger = (function () {
 				}
 				case 'stream': {
 					// code block for stream logging
+					console.log('passing a stream');
 					streamLogger.log(processedPackage, callback);
 					break;
 				}
@@ -90,3 +89,4 @@ const logger = (function () {
 })();
 
 export default logger;
+

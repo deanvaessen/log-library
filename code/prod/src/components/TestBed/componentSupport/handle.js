@@ -171,17 +171,15 @@ let exposed = new class {
 					if (logLocationPathFiltered !== ''){
 						let messageLocationPath = logLocationPath;
 
-						// Filter a slash if it exists at char location 0 or last
-						messageLocationPath = helpers.mutation.typography.filterSpecificFirstChar(messageLocationPath, '/');
-						messageLocationPath = helpers.mutation.typography.filterSpecificLastChar(messageLocationPath, '/');
-
 						newLogMessage.messageLocationPath = messageLocationPath;
 					}
 				}
 
 				// Stream output
 				if (logOutputType == 'stream'){
-
+					// You can add a stream here, to test this logging function I am using process.stdout
+						// However this lives only in node, thus I can't push it from here so I'm letting the back-end add it.
+					//newLogMessage.messageSourceStream = yourstream;
 				}
 
 			// Fire off a the logging

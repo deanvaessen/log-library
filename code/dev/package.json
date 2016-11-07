@@ -18,7 +18,7 @@
 		"start-buildglue" : "nodemon buildglue.js --exec babel-node --presets es2015,stage-2 && nodemon run start-build",
 		"start-front": "node server_front.js --env=dev",
 		"start-back": "nodemon server_back.js --exec babel-node --presets es2015,stage-2",
-		"start-build" : "cd .. && cd /build && npm run build",
+		"start-build" : "cd .. && cd ./build && npm run build",
 		"start": "concurrently --kill-others \"npm run start-front\" \"npm run start-back\" \"npm run start-buildglue\"",
 		"test": "karma start",
 		"test:watch": "karma start --autoWatch=true --singleRun=false"
