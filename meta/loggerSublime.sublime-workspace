@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"libAtProd",
+				"libAtProdDirPath〔variable〕"
+			],
+			[
+				"mess",
+				"messageSourceStream"
+			],
+			[
+				"strea",
+				"streamLogger"
+			],
+			[
 				"messag",
 				"messageLocationPath〔variable〕"
 			],
@@ -502,18 +514,6 @@
 			[
 				"ju",
 				"justify-content"
-			],
-			[
-				"article",
-				"article__info"
-			],
-			[
-				"iframe",
-				"iframeactive"
-			],
-			[
-				"sec",
-				"section__portfolio"
 			]
 		]
 	},
@@ -555,7 +555,7 @@
 			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/components/TestBed/TestBed.js",
 			"settings":
 			{
-				"buffer_size": 9595,
+				"buffer_size": 9844,
 				"line_ending": "Unix"
 			}
 		},
@@ -563,7 +563,7 @@
 			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/components/TestBed/componentSupport/handle.js",
 			"settings":
 			{
-				"buffer_size": 5918,
+				"buffer_size": 5894,
 				"line_ending": "Windows"
 			}
 		},
@@ -571,15 +571,15 @@
 			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/components/TestBed/componentSupport/communicator.js",
 			"settings":
 			{
-				"buffer_size": 1385,
+				"buffer_size": 1606,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/helpers/logger-lib/loggerRoot.js",
+			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/helpers/logger-lib/index.js",
 			"settings":
 			{
-				"buffer_size": 2036,
+				"buffer_size": 2482,
 				"line_ending": "Windows"
 			}
 		},
@@ -587,7 +587,7 @@
 			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/helpers/logger-lib/helpers.js",
 			"settings":
 			{
-				"buffer_size": 3298,
+				"buffer_size": 3944,
 				"line_ending": "Windows"
 			}
 		},
@@ -595,7 +595,7 @@
 			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/helpers/logger-lib/loggers/fileLogger.js",
 			"settings":
 			{
-				"buffer_size": 4716,
+				"buffer_size": 4559,
 				"line_ending": "Windows"
 			}
 		},
@@ -604,6 +604,14 @@
 			"settings":
 			{
 				"buffer_size": 1344,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/helpers/logger-lib/loggers/streamLogger.js",
+			"settings":
+			{
+				"buffer_size": 917,
 				"line_ending": "Windows"
 			}
 		},
@@ -619,7 +627,7 @@
 			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/components/TestBed/TestBed.scss",
 			"settings":
 			{
-				"buffer_size": 3485,
+				"buffer_size": 3591,
 				"line_ending": "Unix"
 			}
 		},
@@ -651,104 +659,8 @@
 			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/README.md",
 			"settings":
 			{
-				"buffer_size": 420,
+				"buffer_size": 0,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/server_back.js",
-			"settings":
-			{
-				"buffer_size": 1190,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/server_front.js",
-			"settings":
-			{
-				"buffer_size": 1121,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/buildglue.js",
-			"settings":
-			{
-				"buffer_size": 1368,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/package.json",
-			"settings":
-			{
-				"buffer_size": 528,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/prod/package.json",
-			"settings":
-			{
-				"buffer_size": 2729,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/package.json",
-			"settings":
-			{
-				"buffer_size": 2774,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/build/package.json",
-			"settings":
-			{
-				"buffer_size": 1329,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/build/buildglue.js",
-			"settings":
-			{
-				"buffer_size": 500,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/webpack.config.js",
-			"settings":
-			{
-				"buffer_size": 817,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/cfg/defaults.js",
-			"settings":
-			{
-				"buffer_size": 1433,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/cfg/base.js",
-			"settings":
-			{
-				"buffer_size": 1282,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/cfg/dev.js",
-			"settings":
-			{
-				"buffer_size": 963,
-				"line_ending": "Unix"
 			}
 		},
 		{
@@ -776,6 +688,10 @@
 				"Indentation: Convert to Tabs"
 			],
 			[
+				"trail",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
 				"jsx",
 				"Set Syntax: JSX"
 			],
@@ -786,10 +702,6 @@
 			[
 				"scss",
 				"Set Syntax: CSS"
-			],
-			[
-				"trail",
-				"Trailing Spaces: Delete Trailing Spaces"
 			],
 			[
 				"trai",
@@ -989,9 +901,36 @@
 	},
 	"file_history":
 	[
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/stylesupport/index.scss",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/stylesupport/partials/_variables.scss",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/stylesupport/partials/_helpers.scss",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/stylesupport/partials/_buttons.scss",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/cfg/dev.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/cfg/base.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/cfg/defaults.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/webpack.config.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/build/buildglue.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/build/package.json",
 		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/prod/src/helpers/logger-lib/index.js",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/components/TestBed/componentSupport/communicator.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/prod/cfg/dist.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/prod/cfg/dev.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/server_back.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/server_front.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/buildglue.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/package.json",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/package.json",
 		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/build/webpack.config.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/prod/cfg/base.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/prod/cfg/defaults.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/prod/src/components/TestBed/componentSupport/communicator.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/prod/server_back.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/build/dist/Library.min.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/prod/webpack.config.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/prod/cfg/test.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/prod/package.json",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/prod/server_front.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/helpers/logger-lib/loggerRoot.js",
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/components/TestBed/componentSupport/communicator.js",
 		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/build/src/index.js",
 		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/react-partyscreen/project/code/package.json",
 		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/cpl.json",
@@ -1019,7 +958,6 @@
 		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Ideas/list.txt",
 		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/helpers/translateNumber.js",
 		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/react-partyscreen/project/code/src/store/actions/utils.js",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/webpack.config.js",
 		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/components/FormComponent/FormComponent.js",
 		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/minooHouse/assets/styles/partials/_findus.scss",
 		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/freelance/2016/minoohouse/srv/htdocs/wp/wp-content/themes/minooHouse/Gruntfile.js",
@@ -1090,33 +1028,7 @@
 		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/actions/route.js",
 		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/actions/intl.js",
 		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/store/configureStore.js",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/store/createHelpers.js",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/archives/src_start/src/components/Link/Link.js",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/archives/src_start/src/components/Provide/IntlProvider.js",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/archives/src_start/src/components/Provide/Provide.js",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/archives/src_start/src/components/Navigation/Navigation.js",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/archives/src_start/src/components/Feedback/Feedback.js",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/archives/src_start/src/components/Header/Header.js",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/actions/userActions",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/PowerUp/PowerUp.js",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/PowerUp/PowerUp.css",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/Greeting/Greeting.css",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/StatContainer/StatContainer.css",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/App/App.css",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/SpawnActor/SpawnActor.css",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/PlayerActor/PlayerActor.css",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/ActionContainer/ActionContainer.css",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/StopActor/StopActor.js",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/Counter/Counter.css",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/HitCounter/HitCounter.css",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/MoveActor/MoveActor.css",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/NPCActor/NPCActor.css",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/SpawnActor/SpawnActor.js",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/ActionBar/ActionBar.js",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/ActionBar/ActionBar.css",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/components/StopActor/StopActor.css",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/gibbernaut/src/gibbernaut-vue/src/server/config/express.js",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/gibbernaut/src/gibbernaut-vue/src/server/config/keys/hiddenkeys.js"
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/store/createHelpers.js"
 	],
 	"find":
 	{
@@ -1164,6 +1076,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"include",
+			"buffer",
+			"externals",
+			"target",
+			"loaders",
+			"loader",
+			"console.log",
+			"charat",
+			"typeof",
+			"/dev",
 			"fs",
 			"estra",
 			"eslint",
@@ -1281,17 +1203,7 @@
 			"powerup",
 			"alias",
 			"plugins",
-			"opacity",
-			"rgb",
-			"getOffset",
-			"p",
-			"img",
-			"width",
-			"first",
-			".find",
-			"50%",
-			"on click",
-			"footer"
+			"opacity"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1437,7 +1349,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -1541,7 +1453,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 25,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
@@ -1660,7 +1572,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 21,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
@@ -1676,12 +1588,8 @@
 						"selection":
 						[
 							[
-								622,
-								622
-							],
-							[
-								717,
-								717
+								598,
+								598
 							]
 						],
 						"settings":
@@ -1697,21 +1605,11 @@
 									[
 										1277,
 										1278
-									],
-									"2":
-									[
-										747,
-										748
 									]
 								},
 								"icon":
 								{
 									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"brackethighlighter.default"
-									],
-									"2":
 									[
 										"Packages/BracketHighlighter/icons/curly_bracket.png",
 										"brackethighlighter.default"
@@ -1723,11 +1621,6 @@
 									[
 										319,
 										320
-									],
-									"2":
-									[
-										657,
-										658
 									]
 								},
 								"unmatched":
@@ -1741,26 +1634,26 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -1771,26 +1664,26 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
@@ -1798,7 +1691,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 23,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -1814,8 +1707,8 @@
 						"selection":
 						[
 							[
-								674,
-								674
+								811,
+								457
 							]
 						],
 						"settings":
@@ -1829,15 +1722,15 @@
 								{
 									"1":
 									[
-										680,
-										681
+										1223,
+										1224
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
 										"brackethighlighter.default"
 									]
 								},
@@ -1845,8 +1738,8 @@
 								{
 									"1":
 									[
-										662,
-										663
+										309,
+										310
 									]
 								},
 								"unmatched":
@@ -1860,26 +1753,26 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -1890,34 +1783,34 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 57.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 19,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -1926,15 +1819,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9595,
+						"buffer_size": 9844,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								295,
-								295
+								6702,
+								6702
 							]
 						],
 						"settings":
@@ -1948,15 +1841,15 @@
 								{
 									"1":
 									[
-										308,
-										309
+										6701,
+										6702
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/single_quote.png",
+										"Packages/BracketHighlighter/icons/double_quote.png",
 										"brackethighlighter.default"
 									]
 								},
@@ -1964,8 +1857,8 @@
 								{
 									"1":
 									[
-										282,
-										283
+										6674,
+										6675
 									]
 								},
 								"unmatched":
@@ -1979,26 +1872,26 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -2009,35 +1902,35 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"is_xml": false,
 							"syntax": "Packages/JSX/JSX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2622.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 18,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
@@ -2046,15 +1939,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5918,
+						"buffer_size": 5894,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4625,
-								4625
+								5460,
+								5460
 							]
 						],
 						"settings":
@@ -2068,8 +1961,8 @@
 								{
 									"1":
 									[
-										4725,
-										4726
+										5588,
+										5589
 									]
 								},
 								"icon":
@@ -2084,8 +1977,8 @@
 								{
 									"1":
 									[
-										4624,
-										4625
+										5327,
+										5328
 									]
 								},
 								"unmatched":
@@ -2099,26 +1992,26 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -2129,34 +2022,34 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2793.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -2165,124 +2058,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1385,
+						"buffer_size": 1606,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								243,
-								243
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 7,
-					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/helpers/logger-lib/loggerRoot.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2036,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								638,
-								638
+								1222,
+								1222
 							]
 						],
 						"settings":
@@ -2296,8 +2080,8 @@
 								{
 									"1":
 									[
-										1972,
-										1973
+										1252,
+										1253
 									]
 								},
 								"icon":
@@ -2312,8 +2096,8 @@
 								{
 									"1":
 									[
-										588,
-										589
+										1130,
+										1131
 									]
 								},
 								"unmatched":
@@ -2327,26 +2111,26 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -2357,34 +2141,159 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/helpers/logger-lib/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2482,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								636,
+								636
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2419,
+										2420
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										634,
+										635
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 137.0,
+						"translation.y": 798.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -2393,15 +2302,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3298,
+						"buffer_size": 3944,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								675,
-								675
+								1343,
+								1343
 							]
 						],
 						"settings":
@@ -2415,8 +2324,8 @@
 								{
 									"1":
 									[
-										3246,
-										3247
+										1368,
+										1369
 									]
 								},
 								"icon":
@@ -2431,8 +2340,8 @@
 								{
 									"1":
 									[
-										209,
-										210
+										1004,
+										1005
 									]
 								},
 								"unmatched":
@@ -2446,26 +2355,26 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -2476,35 +2385,35 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 171.0,
+						"translation.y": 513.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 20,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -2513,15 +2422,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4716,
+						"buffer_size": 4559,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								904,
-								904
+								2271,
+								2271
 							]
 						],
 						"settings":
@@ -2535,15 +2444,15 @@
 								{
 									"1":
 									[
-										904,
-										905
+										4475,
+										4476
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/single_quote.png",
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
 										"brackethighlighter.default"
 									]
 								},
@@ -2551,8 +2460,8 @@
 								{
 									"1":
 									[
-										877,
-										878
+										386,
+										387
 									]
 								},
 								"unmatched":
@@ -2566,26 +2475,26 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -2596,35 +2505,35 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 627.0,
+						"translation.y": 114.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -2640,8 +2549,8 @@
 						"selection":
 						[
 							[
-								411,
-								411
+								515,
+								515
 							]
 						],
 						"settings":
@@ -2655,8 +2564,8 @@
 								{
 									"1":
 									[
-										414,
-										415
+										1258,
+										1259
 									]
 								},
 								"icon":
@@ -2671,8 +2580,8 @@
 								{
 									"1":
 									[
-										375,
-										376
+										514,
+										515
 									]
 								},
 								"unmatched":
@@ -2686,26 +2595,26 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -2716,34 +2625,154 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 570.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/helpers/logger-lib/loggers/streamLogger.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 917,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								378,
+								378
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										835,
+										836
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										377,
+										378
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 22,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -2753,7 +2782,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 11,
+					"buffer": 12,
 					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/components/root/app.scss",
 					"semi_transient": false,
 					"settings":
@@ -2867,24 +2896,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 26,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 13,
 					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/components/TestBed/TestBed.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3485,
+						"buffer_size": 3591,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2660,
-								2660
+								1902,
+								1902
 							]
 						],
 						"settings":
@@ -2897,8 +2926,8 @@
 								{
 									"1":
 									[
-										2700,
-										2701
+										1908,
+										1909
 									]
 								},
 								"icon":
@@ -2913,8 +2942,8 @@
 								{
 									"1":
 									[
-										754,
-										755
+										1814,
+										1815
 									]
 								},
 								"unmatched":
@@ -2928,26 +2957,26 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -2958,38 +2987,38 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"syntax": "Packages/Sunrise Theme/Langs/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2386.0,
+						"translation.y": 1178.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 24,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 14,
 					"semi_transient": false,
 					"settings":
 					{
@@ -3090,7 +3119,7 @@
 						"translation.y": 969.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 29,
+					"stack_index": 18,
 					"type": "text"
 				}
 			]
@@ -3100,7 +3129,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 14,
+					"buffer": 15,
 					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/.eslintrc",
 					"semi_transient": false,
 					"settings":
@@ -3212,14 +3241,14 @@
 							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 699.0,
+						"translation.y": 764.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 16,
 					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/react-partyscreen/project/code/server_back.js",
 					"semi_transient": false,
 					"settings":
@@ -3318,24 +3347,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 17,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 17,
 					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 420,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								145,
-								145
+								0,
+								0
 							]
 						],
 						"settings":
@@ -3365,26 +3394,26 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -3395,26 +3424,26 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"is_xml": false,
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
@@ -3423,1369 +3452,14 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 28,
+					"stack_index": 17,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 4,
 			"sheets":
 			[
-				{
-					"buffer": 17,
-					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/server_back.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1190,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								406,
-								406
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										406,
-										407
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/single_quote.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										375,
-										376
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 171.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 18,
-					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/server_front.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1121,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								215,
-								179
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 171.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 19,
-					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/buildglue.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1368,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1327,
-								1327
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 285.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 20,
-					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 528,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								290,
-								290
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"auto_complete": true,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										412,
-										413
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										129,
-										130
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"syntax": "Packages/Sunrise Theme/Langs/npm JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 21,
-					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/prod/package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2729,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								695,
-								695
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										1022,
-										1023
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										148,
-										149
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"syntax": "Packages/Sunrise Theme/Langs/npm JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 57.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 22,
-					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2774,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								687,
-								777
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"auto_complete": true,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										777,
-										778
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/double_quote.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										686,
-										687
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"syntax": "Packages/Sunrise Theme/Langs/npm JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 23,
-					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/build/package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1329,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								269,
-								269
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"auto_complete": true,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										269,
-										270
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/double_quote.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										184,
-										185
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"syntax": "Packages/Sunrise Theme/Langs/npm JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 24,
-					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/build/buildglue.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 500,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								125,
-								125
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 25,
-					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/webpack.config.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 817,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								334,
-								334
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										335,
-										336
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										316,
-										317
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 26,
-					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/cfg/defaults.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1433,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 570.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 27,
-					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/cfg/base.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1282,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1278,
-								1249
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										1279,
-										1280
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										383,
-										384
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 171.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 28,
-					"file": "/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/cfg/dev.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 963,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
-							],
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 342.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 27,
-					"type": "text"
-				}
 			]
 		},
 		{
@@ -4793,7 +3467,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 29,
+					"buffer": 18,
 					"semi_transient": false,
 					"settings":
 					{
@@ -4835,26 +3509,26 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -4865,26 +3539,26 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"is_xml": false,
 							"syntax": "Packages/Sunrise Theme/Langs/npm JSON.tmLanguage"
@@ -4893,7 +3567,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 11,
 					"type": "text"
 				}
 			]
@@ -4951,16 +3625,16 @@
 		"cols":
 		[
 			0.0,
-			0.379183880533,
-			0.192599744697,
-			0.738576835998,
-			0.759375504883,
+			0.249656801754,
+			0.271106823204,
+			0.72205246756,
+			0.74350248901,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.398431665422,
+			0.841204022339,
 			1.0
 		]
 	},
@@ -5015,7 +3689,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 4,
+	"selected_group": 2,
 	"settings":
 	{
 		"dfw_is_in_fs": true

@@ -1,6 +1,6 @@
 {
 	"private": true,
-	"version": "0.0.8",
+	"version": "0.1.0",
 	"name": "log-library-dev",
 	"description": "Dev server for the logging library",
 	"main": "",

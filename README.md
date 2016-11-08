@@ -9,18 +9,20 @@
 * The minified version of the library is found in /build/dist.
 * The source code of the library is found in /dev/helpers/logger-lib/.
 
+## Details
+=============
 ## Docs
 ------
 * Changelog in meta/changelog
 
-## Library dependencies
+### Library dependencies
 ------
 * NodeJS
 * FS
 * Path
 * NCP
 
-## Directory Structure
+### Directory Structure
 ------
 The folders below are controlled by the package.json file in the project/code folder. Where necessary, they have in their own folder a buildglue.js file with extra build commands to tie them together.
 
@@ -30,7 +32,7 @@ The folders below are controlled by the package.json file in the project/code fo
 
 
 ## API reference
-------
+=============
 #### Set up the component and the message:
 
 ```sh
@@ -68,8 +70,11 @@ let newLogMessage = {
 // If you want to log to a stream, add a writable stream as input:
 const somestream = yourwriteablestream;
 newLogMessage.messageSourceStream = somestream;
+```
 
-communicator.postLog(newLogMessage, (result) => {
+##### Now send it
+```sh
+logger.postLog(newLogMessage, (result) => {
 	// do something with the returned log (result)
 });
 ```
@@ -79,7 +84,7 @@ communicator.postLog(newLogMessage, (result) => {
 * To solve the above, see how I did this in the dev and prod folders with my TestBed component and the server_back.js file.
 
 ## Getting started
-------
+=============
 ### Set-up
 1. Clone it
 2. Install dependencies: 
