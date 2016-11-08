@@ -83,8 +83,11 @@ The folders below are controlled by the package.json file in the project/code fo
 ```sh
 import logger from 'yourlocationofthelogger';
 
-Base message:
-let newLogMessage = {
+const logMessage = 'Hello world!',
+    logLevel = 'info', // or 'debug' or 'error'
+    logOutputType = 'console'; // or 'file' or 'stream'
+    
+const newLogMessage = {
 	messageContent : logMessage,
 	messageLevel : logLevel,
 	messageOutput : logOutputType
