@@ -9,17 +9,20 @@
 * The minified version of the library is found in /build/dist.
 * The source code of the library is found in /dev/helpers/logger-lib/.
 
+<br /><br />
 ## Details
 ------
 ### Docs
 * Changelog in meta/changelog
 
+<br />
 ### Library dependencies
 * NodeJS
 * FS
 * Path
 * NCP
 
+<br />
 ### Directory Structure
 The folders below are controlled by the package.json file in the project/code folder. Where necessary, they have in their own folder a buildglue.js file with extra build commands to tie them together.
 
@@ -27,10 +30,10 @@ The folders below are controlled by the package.json file in the project/code fo
 * build - Holds the build process folder. Each time the dev folder is updated, 'ncp' pumps the library's dev sourcecode to build, and builds the package (thanks nodemon).
 * prod - Similar to dev folder, except with built and minified library to import the library and see if it works. Component code and lib code are both synced by 'ncp'/'fs'.
 
-
+<br /><br />
 ## API reference
 ------
-#### Set up the component and the message:
+#### 0. Set up the component and the message:
 
 ```sh
 import logger from 'yourlocationofthelogger';
@@ -43,7 +46,8 @@ let newLogMessage = {
 };
 ```
 
-#### Add extra fields if necessary:
+<br />
+#### 1. Add extra fields if necessary:
 ##### File-logging:
 
 ```sh
@@ -62,6 +66,7 @@ let newLogMessage = {
 	newLogMessage.messageLocationPath = somefolder;
 ```
 
+<br />
 ##### Stream-logging:
 ```sh
 // If you want to log to a stream, add a writable stream as input:
@@ -69,17 +74,19 @@ const somestream = yourwriteablestream;
 newLogMessage.messageSourceStream = somestream;
 ```
 
-##### Now send it
+<br />
+#### 2. Now send it
 ```sh
 logger.postLog(newLogMessage, (result) => {
 	// do something with the returned log (result)
 });
 ```
-
+<br />
 ### Gotchas:
 * Mind the fact that file logging can only be done through nodeJS. So if you want to log something to a file from the frontend, you will need to have a backend setup and pass the message to a function on the backend that calls my library. 
 * To solve the above, see how I did this in the dev and prod folders with my TestBed component and the server_back.js file.
 
+<br /><br />
 ## Getting started
 ------
 ### Set-up
@@ -94,7 +101,10 @@ $ npm run installdeps
 * It might be possible to further enhance this build environment by merging /dev and /build,
 but this was a good way to churn out a set-up that takes into account npm module creation.
 
+<br />
 ### Commands
+(Run these from within ./code)
+<br /><br />
 * Developing: 
 ```sh
 $ npm start
