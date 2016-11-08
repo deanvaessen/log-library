@@ -36,7 +36,7 @@ The new filename changes to name #{LogFileName}.#NextNumber.#{LogFileExtension} 
 E.g.: original log name is: log.txt. The first new file would be log.1.txt, the second rotation creates the log.2.txt file.
 
 <br />
-Every logger uses the same log formatting: #{LogTime} [#{LogLevel}] #{LogMessage}.
+Every log output type uses the same log formatting: #{LogTime} [#{LogLevel}] #{LogMessage}.
 
 <br />
 Library is packaged, minified and waiting in build/dist.
