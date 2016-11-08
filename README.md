@@ -10,6 +10,38 @@
 * The source code of the library is found in /dev/helpers/logger-lib/.
 
 <br />
+#### Features:
+There are three different message levels:
+* debug
+* info
+* error 
+
+<br />
+There are three types of the loggers:
+* console logger: logs to the console
+* file logger: logs to a file
+* stream logger: logs to any stream
+
+<br />
+The console logger throws an exception if the log message is longer than 1000 characters. 
+<br />
+The console logger sets the color of the text depending on the message level:
+* debug - gray
+* info - green
+* error - red
+
+<br />
+The file logger rotates the files by size. If a logfile reaches the size of 5k, a new log file is generated.
+The new filename changes to name #{LogFileName}.#NextNumber.#{LogFileExtension} and the logging should be continues in the new file.
+E.g.: original log name is: log.txt. The first new file creates log.1.txt, the second rotation creates the log.2.txt file.
+
+<br />
+Every logger uses the same log formatting: #{LogTime} [#{LogLevel}] #{LogMessage}.
+
+<br />
+Library is packaged, minified and waiting in build/dist.
+
+<br />
 ##### Build environment / SDK
 * I left in my own build environment, which served as a sort of 'SDK' for the  library and helped me build and test it properly.
 * It includes a front-end component (React), as well as a small back-end to test file logging (built on NodeJS + Express). 
