@@ -71,9 +71,9 @@ Library is packaged, minified and waiting in build/dist.
 ### Directory Structure
 The folders below are controlled by the package.json file in the project/code folder. Where necessary, they have in their own folder a buildglue.js file with extra build commands to tie them together.
 
-* dev - Holds the development folder. This has the frontend component (src/components/TestBed) to test the library and the library sourcecode (src/helpers/logger-lib).
-* build - Holds the build process folder. Each time the dev folder is updated, the library's /dev sourcecode to /build, and builds the package (thanks nodemon), then copies it to prod also.
-* prod - Similar to dev folder, except with built and minified library to import the library and see if it works. Component code and lib code are both synced.
+* dev - Holds the development folder. This has the frontend component (src/components/TestBed) to test the library and the library sourcecode (code/dev/src/helpers/logger-lib).
+* build - Holds the build process folder. Each time the dev folder is updated, the library's code/dev/src/helpers/logger-lib sourcecode to code/build, and builds the package (thanks nodemon), then copies it to /code/prod/src/helpers/logger-lib also.
+* prod - Similar to dev folder, except with built and minified library to import the library and see if it works. Component code and lib code are both synced from previous folders by running npm start from the /code dir.
 
 <br /><br />
 ## API reference
