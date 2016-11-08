@@ -17,7 +17,7 @@ There are three different message levels:
 * error 
 
 <br />
-There are three types of the loggers:
+There are three output types:
 * console logger: logs to the console
 * file logger: logs to a file
 * stream logger: logs to any stream
@@ -32,8 +32,8 @@ The console logger sets the color of the text depending on the message level:
 
 <br />
 The file logger rotates the files by size. If a logfile reaches the size of 5k, a new log file is generated.
-The new filename changes to name #{LogFileName}.#NextNumber.#{LogFileExtension} and the logging should be continues in the new file.
-E.g.: original log name is: log.txt. The first new file creates log.1.txt, the second rotation creates the log.2.txt file.
+The new filename changes to name #{LogFileName}.#NextNumber.#{LogFileExtension} and logging continues in the new file.
+E.g.: original log name is: log.txt. The first new file would be log.1.txt, the second rotation creates the log.2.txt file.
 
 <br />
 Every logger uses the same log formatting: #{LogTime} [#{LogLevel}] #{LogMessage}.
