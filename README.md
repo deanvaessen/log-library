@@ -87,7 +87,7 @@ const logMessage = 'Hello world!',
     logLevel = 'info', // or 'debug' or 'error'
     logOutputType = 'console'; // or 'file' or 'stream'
     
-const newLogMessage = {
+let newLogMessage = {
 	messageContent : logMessage,
 	messageLevel : logLevel,
 	messageOutput : logOutputType
