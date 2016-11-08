@@ -63,8 +63,9 @@ Library is packaged, minified and waiting in build/dist.
 <br />
 ### Library dependencies
 * NodeJS
-* FS
-* Path
+* FS (NodeJS built-in package)
+* Path (NodeJS built-in package)
+* Stream (NodeJS built-in package)
 * NCP
 
 <br />
