@@ -132,7 +132,7 @@ logger.postLog(newLogMessage, (result) => {
 ```
 <br />
 ### Gotchas:
-* Mind the fact that file logging can only be done through nodeJS. So if you want to log something to a file from the frontend, you will need to have a backend setup and pass the message to a function on the backend that calls my library. 
+* Mind the fact that file logging can only be done through NodeJS. So if you want to log something to a file from the frontend, you will need to have a backend setup and pass the message to a function on the backend that calls my library. 
 * To solve the above, see how I did this in the dev and prod folders with my TestBed component and the server_back.js file.
 
 <br /><br />
