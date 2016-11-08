@@ -1,8 +1,8 @@
 {
 	"private": true,
-	"version": "0.0.1",
-	"name": "log-library",
-	"description": "Logging library dev server",
+	"version": "0.0.8",
+	"name": "log-library-dev",
+	"description": "Dev server for the logging library",
 	"main": "",
 	"scripts": {
 		"clean": "rimraf dist/*",

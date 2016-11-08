@@ -1,6 +1,6 @@
 {
 	"private": true,
-	"version": "0.0.1",
+	"version": "0.0.8",
 	"name": "log-library-SDK",
 	"description": "SDK for the logging library",
 	"main": "",

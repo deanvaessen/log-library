@@ -1,6 +1,0 @@
-The folders below are controlled by the package.json file in the project/code folder. Where necessary, they have in their own folder a buildglue.js file with extra build commands to tie them together.
-
-dev - Holds the development folder. This holds the frontend component (src/components/TestBed) to test the library and the library sourcecode (src/helpers/logger-lib).
-build - Holds the build process folder. Each time the dev folder is updated, 'ncp' pumps the library's dev sourcecode to build, in which I can build it into a package.
-prod - Similar to dev folder, except with built library (e.g.: someone else's project) to import the library and see if it works. Component code and lib code are both synced by 'ncp'.
-

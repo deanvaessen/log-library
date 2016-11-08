@@ -37,27 +37,35 @@
 	 * Support helpers to define elements such as date, time.
 	*/
 	const define = {
-		date : function () {
-			const currentDate = new Date(),
-						day = currentDate.getDate(),     // Get current date
-						month = currentDate.getMonth() + 1, // current month
-						year = currentDate.getFullYear(),
-						dateString = day + '/' + month + '/' + year;
+		// Adding a 0 in front of single characters looks better in the log.
+		prependZeroForSingles : function (item) {
+			if (item.length === 1) {
+				return ('0' + item.toString());
+			}
+			return item;
+		},
 
-				return dateString;
+		date : function () {
+
+			const currentDate = new Date();
+
+			let day = define.prependZeroForSingles(currentDate.getDate().toString()),     // Get current date
+						month = define.prependZeroForSingles((currentDate.getMonth() + 1).toString()),  // Current month
+						year = currentDate.getFullYear();
+
+
+			const dateString = day + '/' + month + '/' + year;
+
+			return dateString;
 		},
 
 		time : function () {
-			const currentTime = new Date(),
-					hour = currentTime.getHours(),
-					min = currentTime.getMinutes();
+			// Adding a 0 in front of single characters looks better in the log..
+			const currentTime = new Date();
 
-			let sec = currentTime.getSeconds().toString();
-
-			// Adding a 0 in front of single characters looks better in the log.
-			if (sec.length === 1) {
-				sec = '0' + sec.toString();
-			};
+			let hour = define.prependZeroForSingles(currentTime.getHours().toString()),
+				min = define.prependZeroForSingles(currentTime.getMinutes().toString()),
+				sec = define.prependZeroForSingles(currentTime.getSeconds().toString());
 
 			const timeString = hour + ':' + min + ':' + sec;
 

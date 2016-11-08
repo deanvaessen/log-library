@@ -4,4 +4,5 @@
 06/11/2016 - 0.0.4: File logger fixes (read only .txt files on scanning log directory, misc), add 0 for single seconds to improve log readability.
 06/11/2016 - 0.0.5: Build environment completely revamped to include automatic building of the library based on dev sourcecode updates and syncing test UI to prod. SDK is now controlled from /code.
 07/11/2016 - 0.0.6: Build environment bug fixes, stream logging implemented on library + frontend.
-07/11/2016 - 0.0.7: Build environment bug fixes (Dev watches lib and builds on changes), prod testing OK.
+07/11/2016 - 0.0.7: Build environment bug fixes (dev watches lib and builds on changes), prod testing OK.
+07/11/2016 - 0.0.8: Documentation, date/timestamp improvement.
