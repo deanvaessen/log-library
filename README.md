@@ -3,21 +3,25 @@
 ![Screenshot of the front-end component](/meta/screenshot.png?raw=true "Front-end component screenshot")
 
 ## Intro
+------
 * I left in my own build environment, which served as a sort of 'SDK' for the  library and helped me build and test it properly.
 * It includes a frontend component, as well as a small backend to test file logging (built on nodeJS).
 * The minified version of the library is found in /build/dist.
 * The source code of the library is found in /dev/helpers/logger-lib/.
 
-## Documentation
+## Docs
+------
 * Changelog in meta/changelog
 
 ## Library dependencies
+------
 * NodeJS
 * FS
 * Path
 * NCP
 
 ## Directory Structure
+------
 The folders below are controlled by the package.json file in the project/code folder. Where necessary, they have in their own folder a buildglue.js file with extra build commands to tie them together.
 
 * dev - Holds the development folder. This holds the frontend component (src/components/TestBed) to test the library and the library sourcecode (src/helpers/logger-lib).
@@ -26,7 +30,7 @@ The folders below are controlled by the package.json file in the project/code fo
 
 
 ## API reference
-
+------
 #### Set up the component and the message:
 
 ```sh
@@ -75,7 +79,7 @@ communicator.postLog(newLogMessage, (result) => {
 * To solve the above, see how I did this in the dev and prod folders with my TestBed component and the server_back.js file.
 
 ## Getting started
-
+------
 ### Set-up
 1. Clone it
 2. Install dependencies: 
