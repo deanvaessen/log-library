@@ -5,12 +5,20 @@
 <br /><br />
 ## Intro
 ------
-* I left in my own build environment, which served as a sort of 'SDK' for the  library and helped me build and test it properly.
-* It includes a front-end component (React), as well as a small back-end to test file logging (built on NodeJS + Express). Logging files through the browser instead of Node is iffy. So I chose logging through Node.
+##### Library
 * The minified version of the library is found in /build/dist.
 * The source code of the library is found in /dev/helpers/logger-lib/.
-* Front-end component is served with Webpack/Babel/esLint.
+
+<br />
+##### Build environment / SDK
+* I left in my own build environment, which served as a sort of 'SDK' for the  library and helped me build and test it properly.
+* It includes a front-end component (React), as well as a small back-end to test file logging (built on NodeJS + Express). 
+* Logging files through the browser instead of Node is iffy. So I chose logging through Node. Hence the back-end.
 * Sub-folders starting point were boilerplates.
+<br />
+
+##### Front-end
+* Front-end component is served with Webpack/Babel/esLint.
 
 <br /><br />
 ## Details
