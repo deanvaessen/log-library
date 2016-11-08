@@ -20,7 +20,7 @@
 ##### Front-end
 * Front-end component is served with Webpack/Babel/esLint.
 * Front-end was built to debug and test the library properly as a third party component. 
-* This made development easier by making development less of a hassle by providing me hooks to throw things at the library.
+* Providing me hooks to throw things at the library as such, made development easier.
 
 <br /><br />
 ## Details
