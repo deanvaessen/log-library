@@ -2,6 +2,7 @@
 
 ![Screenshot of the front-end component](/meta/screenshot.png?raw=true "Front-end component screenshot")
 
+<br /><br />
 ## Intro
 ------
 * I left in my own build environment, which served as a sort of 'SDK' for the  library and helped me build and test it properly.
