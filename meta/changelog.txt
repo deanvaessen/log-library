@@ -6,4 +6,6 @@
 07/11/2016 - 0.0.6: Build environment bug fixes, stream logging implemented on library + frontend.
 07/11/2016 - 0.0.7: Build environment bug fixes (dev watches lib and builds on changes), prod testing OK.
 07/11/2016 - 0.0.8: Documentation, date/timestamp improvement.
-07/11/2016 - 0.0.9: Readme fixes
+07/11/2016 - 0.0.9: Readme fixes.
+07/11/2016 - 0.1.0: Readme fixes.
+10/11/2016 - 0.1.1: Changed file logger file rotation to archive files and have base file always be most recent. Misc small fixes.

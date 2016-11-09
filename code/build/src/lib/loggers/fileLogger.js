@@ -113,7 +113,8 @@
 			let logFileExtention = '.txt',
 				newLogNumber = logsAmount + 1,
 				baseFileName = 'log' + logFileExtention,
-				mostRecentFilePath,
+				//mostRecentArchivedLogPath,
+				baseLogPath = writePath + baseFileName,
 				newLogFileName,
 				messageWithLineBreak = wrapLineBreak(messageContent);
 
@@ -124,36 +125,37 @@
 			} else if (logArray.length === 1){
 				baseFileName = 'log' + logFileExtention;
 				newLogFileName = 'log' + '.' + newLogNumber + logFileExtention;
-				mostRecentFilePath = writePath + baseFileName;
+				//mostRecentArchivedLogPath = writePath + baseFileName;
 			} else {
-				baseFileName = 'log' + '.' + logsAmount + logFileExtention;
+				baseFileName = 'log' + '.' + logFileExtention;
 				newLogFileName = 'log' + '.' + newLogNumber + logFileExtention;
-				mostRecentFilePath = writePath + baseFileName;
+				//mostRecentArchivedLogPath = writePath + baseFileName;
 			}
 
 			// Is there a mostRecentFile or is this the first item?
 			if (logsAmount != 0){
-				const fileStats = fs.statSync(mostRecentFilePath),
+				const fileStats = fs.statSync(baseLogPath),
 						fileSizeInBytes = fileStats['size'];
 
 				//console.log(fileSizeInBytes, messageInBytes);
 				// Is the last log file still within 5000 bytes if I add this new logMessage?
-				if (fileSizeInBytes + messageInBytes < 5000){
+				if (fileSizeInBytes + messageInBytes < 200){
 					// Append to file
-
-					writePath = mostRecentFilePath;
+					writePath = baseLogPath;
 					appendFile(writePath, messageWithLineBreak);
 				} else {
-					// Write a new file
+					// Rename the original log file to log.{incrementnumber}
 					writePath = writePath + newLogFileName;
+					fs.createReadStream(baseLogPath).pipe(fs.createWriteStream(writePath));
 
-					writeFile(writePath, messageWithLineBreak);
+					// Now create a new log file
+					writeFile(baseLogPath, messageWithLineBreak);
 				}
 			} else {
 				// Define path for the first file
 				writePath = writePath + newLogFileName;
 
-				writeFile(writePath, messageWithLineBreak);
+				writeFile(baseLogPath, messageWithLineBreak);
 			}
 
 		// Callback

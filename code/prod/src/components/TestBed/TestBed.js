@@ -87,7 +87,7 @@ class TestBed extends React.Component {
 	}
 
 	mutateComponent(payload){
-		console.log('payload');
+		console.log('TestBed receives result:');
 		console.log(payload);
 
 		// Show the results block in the view

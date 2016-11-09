@@ -1,5 +1,5 @@
 /* ******************************
- * [userActions.js]
+ * [communicator.js]
  * This file holds the communication calls for the component to test stream and file logging through NodeJS/Express.
  *
  * Notes:

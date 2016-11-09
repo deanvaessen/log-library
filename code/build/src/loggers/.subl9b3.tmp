@@ -42,7 +42,6 @@
 					}
 
 					//console.log('A new log file was saved!');
-					//console.log(writePath, messageContent);
 				});
 			};
 
@@ -54,7 +53,6 @@
 					}
 
 					//console.log('The log file was appended!');
-					//console.log(writePath, messageContent);
 				});
 			};
 
@@ -129,48 +127,51 @@
 				//console.log(fileSizeInBytes, messageInBytes);
 				// Is the last log file still within 5000 bytes if I add this new logMessage?
 				if (fileSizeInBytes + messageInBytes < 200){
+					console.log('Appending log!');
+					console.log('Appending log!');
 					// Append to file
 					appendFile(baseLogPath, messageWithLineBreak);
 				} else {
+					console.log('Mutating log!');
+					console.log('Mutating log!');
 					// Rename the original log file to log.{incrementnumber}
 					const mutationStream = fs.createReadStream(baseLogPath);
 
 					mutationStream.pipe(fs.createWriteStream(newlyArchivedFileLogPath));
 
-					let streamHadError = false;
-
+					let had_error = false;
 					mutationStream.on('error', function (err) {
-						streamHadError = true;
-						throw new Error('Log renaming failed! ' + err);
+						had_error = true;
 					});
 
 					// Now create a new log file
-					mutationStream.on('close', function () {
-						if (!streamHadError){
-							// Make a new base log file
-							writeFile(baseLogPath, messageWithLineBreak);
-						}
+					mutationStream.on('close', function(){
+						if (!had_error){
+						 	writeFile(baseLogPath, messageWithLineBreak);
+						 } else {
+						 	throw 'something went wrong with renaming the log!';
+						 }
 					});
 				}
 			} else {
+				console.log('Creating first log!');
+				console.log('Creating first log!');
 				// Define path for the first file
 				writeFile(baseLogPath, messageWithLineBreak);
 			}
 
 
 		// Callback
-		let loggedPath = baseLogPath;
-
-		if (loggedPath.charAt(0) === '.'){
-			loggedPath = loggedPath.slice(1, loggedPath.length);
+		if (baseLogPath.charAt(0) === '.'){
+			baseLogPath = baseLogPath.slice(1, baseLogPath.length);
 		}
 
 		// Define the result for the callback
-		loggedPath = messageLocationLookIn + loggedPath;
+		writePath = messageLocationLookIn + baseLogPath;
 
 		const result = {
 			messageContent : messageContent,
-			writePath : loggedPath
+			writePath : writePath
 		};
 
 		callback ? callback(result) : ' ';
@@ -183,7 +184,7 @@
 
 
  /**
-* Export
-*/
+	* Export
+	*/
  module.exports = index;
 

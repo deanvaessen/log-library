@@ -42,6 +42,7 @@
 					}
 
 					//console.log('A new log file was saved!');
+					//console.log(writePath, messageContent);
 				});
 			};
 
@@ -53,6 +54,7 @@
 					}
 
 					//console.log('The log file was appended!');
+					//console.log(writePath, messageContent);
 				});
 			};
 
@@ -111,59 +113,64 @@
 
 			// Define a base file to verify the size of the mostRecentFile
 			let logFileExtention = '.txt',
-				newLogNumber = logsAmount + 1,
+				//mostRecentArchivedLogPath,
 				baseFileName = 'log' + logFileExtention,
-				mostRecentFilePath,
-				newLogFileName,
+				baseLogPath = writePath + baseFileName,
+				newlyArchivedLogNumber = logsAmount + 1,
+				newlyArchivedLogFileName = 'log' + '.' + newlyArchivedLogNumber + logFileExtention,
+				newlyArchivedFileLogPath = writePath + newlyArchivedLogFileName,
 				messageWithLineBreak = wrapLineBreak(messageContent);
-
-			// Check file size of mostRecentFile and define a name for the new log
-			if (logArray.length === 0) {
-				newLogNumber = '';
-				newLogFileName = baseFileName;
-			} else if (logArray.length === 1){
-				baseFileName = 'log' + logFileExtention;
-				newLogFileName = 'log' + '.' + newLogNumber + logFileExtention;
-				mostRecentFilePath = writePath + baseFileName;
-			} else {
-				baseFileName = 'log' + '.' + logsAmount + logFileExtention;
-				newLogFileName = 'log' + '.' + newLogNumber + logFileExtention;
-				mostRecentFilePath = writePath + baseFileName;
-			}
 
 			// Is there a mostRecentFile or is this the first item?
 			if (logsAmount != 0){
-				const fileStats = fs.statSync(mostRecentFilePath),
+				const fileStats = fs.statSync(baseLogPath),
 						fileSizeInBytes = fileStats['size'];
 
 				//console.log(fileSizeInBytes, messageInBytes);
 				// Is the last log file still within 5000 bytes if I add this new logMessage?
-				if (fileSizeInBytes + messageInBytes < 5000){
+				if (fileSizeInBytes + messageInBytes < 200){
 					// Append to file
-
-					writePath = mostRecentFilePath;
-					appendFile(writePath, messageWithLineBreak);
+					appendFile(baseLogPath, messageWithLineBreak);
 				} else {
-					// Write a new file
-					writePath = writePath + newLogFileName;
+					// Rename the original log file to log.{incrementnumber}
+					const mutationStream = fs.createReadStream(baseLogPath);
 
-					writeFile(writePath, messageWithLineBreak);
+					mutationStream.pipe(fs.createWriteStream(newlyArchivedFileLogPath));
+
+					let streamHadError = false;
+
+					mutationStream.on('error', function (err) {
+						streamHadError = true;
+						throw new Error('Log renaming failed! ' + err);
+					});
+
+					// Now create a new log file
+					mutationStream.on('close', function () {
+						if (!streamHadError){
+							// Make a new base log file
+							writeFile(baseLogPath, messageWithLineBreak);
+						}
+					});
 				}
 			} else {
 				// Define path for the first file
-				writePath = writePath + newLogFileName;
-
-				writeFile(writePath, messageWithLineBreak);
+				writeFile(baseLogPath, messageWithLineBreak);
 			}
 
+
 		// Callback
-		if (writePath.charAt(0) === '.'){
-			writePath = writePath.slice(1, writePath.length);
+		let loggedPath = baseLogPath;
+
+		if (loggedPath.charAt(0) === '.'){
+			loggedPath = loggedPath.slice(1, loggedPath.length);
 		}
+
+		// Define the result for the callback
+		loggedPath = messageLocationLookIn + loggedPath;
 
 		const result = {
 			messageContent : messageContent,
-			writePath : messageLocationLookIn + writePath
+			writePath : loggedPath
 		};
 
 		callback ? callback(result) : ' ';
@@ -176,7 +183,7 @@
 
 
  /**
-	* Export
-	*/
+* Export
+*/
  module.exports = index;
 

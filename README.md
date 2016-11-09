@@ -31,9 +31,8 @@ The console logger sets the color of the text depending on the message level:
 * error - red
 
 <br />
-The file logger rotates the files by size. If a logfile reaches the size of 5k, a new log file is generated.
-The new filename changes to name #{LogFileName}.#NextNumber.#{LogFileExtension} and logging continues in the new file.
-E.g.: original log name is: log.txt. The first new file would be log.1.txt, the second rotation creates the log.2.txt file.
+The file logger rotates the files by size. If a logfile reaches the size of 5k, the original log is archived and renamed to #{LogFileName}.#NextNumber.#{LogFileExtension} and logging continues in a new base log file.
+E.g.: original log name is: log.txt. The first archived file would be log.1.txt, the second rotation creates the log.2.txt file.
 
 <br />
 Every log output type uses the same log formatting: #{LogTime} [#{LogLevel}] #{LogMessage}.
@@ -158,7 +157,8 @@ but this was a good way to churn out a set-up that takes into account npm module
 ```sh
 $ npm start
 ```
-
+The server is on http://localhost:8000/webpack-dev-server/
+<br />
 * Building:
 ```sh
 $ npm run build
