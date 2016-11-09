@@ -925,6 +925,7 @@
 	},
 	"file_history":
 	[
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/realeyes/project/code/server.js",
 		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/stylesupport/index.scss",
 		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/stylesupport/partials/_variables.scss",
 		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Challenges/nexogen/project/code/dev/src/stylesupport/partials/_helpers.scss",
@@ -1051,8 +1052,7 @@
 		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/archives/src_start/src/components/App/App.test.js",
 		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/actions/route.js",
 		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/actions/intl.js",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/store/configureStore.js",
-		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/store/createHelpers.js"
+		"/D/1 - CORTANA/3 - Projects/18 - Coding/src/Web/Personal/HeartOfGold/src/src/store/configureStore.js"
 	],
 	"find":
 	{
@@ -2453,8 +2453,8 @@
 						"selection":
 						[
 							[
-								275,
-								275
+								388,
+								388
 							]
 						],
 						"settings":
@@ -2466,12 +2466,27 @@
 							{
 								"close":
 								{
+									"1":
+									[
+										4691,
+										4692
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										386,
+										387
+									]
 								},
 								"unmatched":
 								{
@@ -2539,7 +2554,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 114.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -3024,8 +3039,8 @@
 						"selection":
 						[
 							[
-								3120,
-								3120
+								2799,
+								2799
 							]
 						],
 						"settings":
@@ -3038,8 +3053,8 @@
 								{
 									"1":
 									[
-										3123,
-										3124
+										2798,
+										2799
 									]
 								},
 								"icon":
@@ -3054,8 +3069,8 @@
 								{
 									"1":
 									[
-										2947,
-										2948
+										750,
+										751
 									]
 								},
 								"unmatched":

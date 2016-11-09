@@ -128,7 +128,7 @@
 
 				//console.log(fileSizeInBytes, messageInBytes);
 				// Is the last log file still within 5000 bytes if I add this new logMessage?
-				if (fileSizeInBytes + messageInBytes < 200){
+				if (fileSizeInBytes + messageInBytes < 5000){
 					// Append to file
 					appendFile(baseLogPath, messageWithLineBreak);
 				} else {
