@@ -1,7 +1,7 @@
 {
-  "name": "webpack-library-starter",
-  "version": "0.1.3",
-  "description": "Produce universal library with webpack and es6",
+  "name": "log-library-dev",
+  "version": "0.1.1",
+  "description": "Build server for the logging library",
   "main": "lib/library.js",
   "scripts": {
     "build": "webpack --mode=build && node buildglue.js --exec babel-node --presets es2015,stage-2",
@@ -26,10 +26,7 @@
     "webpack-node-externals": "^1.5.4",
     "yargs": "3.32.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/krasimir/webpack-library-starter.git"
-  },
+  "repository": "",
   "keywords": [
     "webpack",
     "es6",
