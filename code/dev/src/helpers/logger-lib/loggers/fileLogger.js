@@ -1,6 +1,6 @@
 /*******************************
- * [_consoleLogger.js]
- * Define the consoleLogger function
+ * [_fileLogger.js]
+ * Define the fileLogger function
  ******************************/
 
 /**
