@@ -1,6 +1,6 @@
 /*******************************
- * [_consoleLogger.js]
- * Define the consoleLogger function
+ * [_fileLogger.js]
+ * Define the fileLogger function
  ******************************/
 
 /**
@@ -113,7 +113,6 @@
 
 			// Define a base file to verify the size of the mostRecentFile
 			let logFileExtention = '.txt',
-				//mostRecentArchivedLogPath,
 				baseFileName = 'log' + logFileExtention,
 				baseLogPath = writePath + baseFileName,
 				newlyArchivedLogNumber = logsAmount + 1,
@@ -121,7 +120,7 @@
 				newlyArchivedFileLogPath = writePath + newlyArchivedLogFileName,
 				messageWithLineBreak = wrapLineBreak(messageContent);
 
-			// Is there a mostRecentFile or is this the first item?
+			// Is there already a log file or is this the first item?
 			if (logsAmount != 0){
 				const fileStats = fs.statSync(baseLogPath),
 						fileSizeInBytes = fileStats['size'];
