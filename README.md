@@ -141,7 +141,7 @@ newLogMessage.messageSourceStream = somestream;
 
 #### 2. Now send it
 ```sh
-logger.postLog(newLogMessage, (result) => {
+logger.log(newLogMessage, (result) => {
 	// do something with the returned log (result)
 });
 ```
