@@ -99,15 +99,11 @@ The folders below are controlled by the package.json file in the project/code fo
 
 ```sh
 import logger from 'yourlocationofthelogger';
-
-const logMessage = 'Hello world!',
-    logLevel = 'info', // or 'debug' or 'error'
-    logOutputType = 'console'; // or 'file' or 'stream'
     
 let newLogMessage = {
-	messageContent : logMessage,
-	messageLevel : logLevel,
-	messageOutput : logOutputType
+	messageContent : 'Hello world!',
+	messageLevel : 'info', // or 'debug' or 'error'
+	messageOutput : 'console'; // or 'file' or 'stream'
 };
 ```
 
