@@ -103,7 +103,7 @@ import logger from 'yourlocationofthelogger';
 let newLogMessage = {
 	messageContent : 'Hello world!',
 	messageLevel : 'info', // or 'debug' or 'error'
-	messageOutput : 'console'; // or 'file' or 'stream'
+	messageOutput : 'console' // or 'file' or 'stream'
 };
 ```
 
